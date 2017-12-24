@@ -1,0 +1,19 @@
+name: "R Markdown Websites Tutorial"
+navbar:
+  title: "HOME"
+  left:
+    - text: "Publications"
+      href: publications.html
+    #- text: "CV"
+    #  href: basic_workflow.html
+    #- text: "Getting Sophisticated"
+    #  href: getting_sophisticated.html
+    #- text: "Your Turn"
+    #  href: your_turn.html
+output_dir: "."
+output:
+  html_document:
+    theme: yeti
+    highlight: textmate
+#    include:
+#      after_body: _footer.html
