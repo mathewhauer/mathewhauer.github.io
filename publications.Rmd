@@ -1,5 +1,6 @@
 ---
 title: "PUBLICATIONS"
+urlcolor: blue
 ---
 
 [Curriculum Vitae](./papers/Hauer_CV.pdf)
@@ -8,7 +9,7 @@ title: "PUBLICATIONS"
 My current work focuses on sea-level rise; the who's, where's, and how many's of the populations affected. I am particularly interested in the impacts of sea-level rise and climate change writ large on society. I'm also interested in demographic techniques and methods.
 
 ----
-
+ 
 ### Working Papers
 
 Schmertmann, C., & **Hauer, M.** "Bayesian estimation of total fertility from a population's age-sex structure." *Statistical Modelling* (Forthcoming). [[PDF]](https://osf.io/preprints/socarxiv/je59v/)
