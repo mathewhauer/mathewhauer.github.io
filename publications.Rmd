@@ -50,7 +50,7 @@ Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-lev
 
 [1.] **Hauer, M.**, (2013). "A 3D spatio-temporal geovisualization of subcounty estimates of historic housing density in metro Atlanta, 1940-2009.'' [*Spatial Demography 1(2), 146-161*](http://link.springer.com/article/10.1007/BF03354895). [[PDF]](./papers/2013-SpatDemHauer.pdf)
 
-----
+
 
 
 
