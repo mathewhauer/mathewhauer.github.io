@@ -1,4 +1,5 @@
 name: "R Markdown Websites Tutorial"
+urlcolor: blue
 navbar:
   title: "HOME"
   left:
