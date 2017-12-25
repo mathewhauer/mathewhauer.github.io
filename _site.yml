@@ -15,5 +15,8 @@ output:
   html_document:
     theme: yeti
     highlight: textmate
-#    include:
-#      after_body: _footer.html
+    css: fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome.css    
+    self_contained: no
+    include:
+      after_body: _footer.html
+      

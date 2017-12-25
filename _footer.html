@@ -1,27 +1,58 @@
 <footer role="contentinfo" id="site-footer">
-<hr>
-
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
 <!-- /.bottom-menu -->
+<hr>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
 <style>
-  .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 200px; /* chrome, safari */
-    -moz-columns: 2 200px;    /* firefox */
-  }
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
 </style>
  
 
-<div class="col2">
-
-<h3>About</h3>
-I am an Applied Demographer at the University of Georgia
-<br>
-
-<h3>Contact</h3>
-Contact information for me can be loacted here.
-
+<div class="row">
+  <div class="column">
+    <h4>ABOUT</h4>
+     
+    <img src="./images/headshot.png" width="100px" style="float:left" HSPACE="10">
+    I am an Applied Demographer at the <a href="https://cviog.uga.edu/">Carl Vinson Institute of Government</a> at the <a href="https://www.uga.edu/">University of Georgia</a>.
+  </div>
+  <div class="column">
+    <h4>CONTACT</h4>
+    <li><i class="fa fa-university"></i>201 N. Milledge Ave., Athens, GA, 30602</li>
+    <p><span>&#9993;</span> <a href= "mailto:hauer@uga.edu">hauer@uga.edu</a></p>
+  </div>
 </div>
-<br>
+
 
 <hr>
 
