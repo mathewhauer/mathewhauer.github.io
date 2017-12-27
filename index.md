@@ -6,6 +6,14 @@ output:
     fig_width: 1
 ---
 
+
+<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
+<style type="text/css">
+table.padded-table td { padding:6px; min-width:100px }
+</style>
+
+
+
 [Curriculum Vitae](./papers/Hauer_CV.pdf)
 
 
@@ -31,6 +39,20 @@ Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-lev
 
 ### Articles
 
+<table class="padded-table">
+  <tr><td>[7.] **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change  7(5): 321-325*  </td><td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+  <tr><td>[6.] Shannon, S. & **Hauer, M.** (2017). "A life table approach to estimating disproportionate minority contact in the juvenile justice system." *Justice Quarterly*  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/07418825.2017.1315163) / [PDF](./papers/2017-JusticeQuarterlyShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/07418825.2017.1315163" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+  <tr><td>[5.] Shannon, J., **Hauer, M.**, Shannon, S., and Weaver, A. (2017). "The Suburbanization of Food Insecurity: An Analysis of Projected     Trends in the Atlanta Metropolitan Area." *Professional Geographer*  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/00330124.2017.1325751) / [PDF](./papers/2017-ProGeographerShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/00330124.2017.1325751" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
+   <tr><td>[4.] **Hauer, M.**, Evans, J., and Mishra, D. (2016). "Millions projected to be at risk from sea-level rise in the continental United States.'' *Nature Climate Change 6(7):691-695* /td><td> [WEB](http://www.nature.com/nclimate/journal/v6/n7/full/nclimate2961.html) / [PDF](./papers/2016-NCLIMHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate2961" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>  
+   <tr><td>[3.] **Hauer, M.**, Evans, J., and Alexander, C. (2015). "Sea-level rise and sub-county population projections in coastal Georgia.''  *Population and Environment 37(1): 44-62*</td> <td> [WEB](http://link.springer.com/article/10.1007/s11111-015-0233-8) / [PDF](./papers/2015-POENHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s11111-015-0233-8" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
+       
+ <tr><td>[2.] **Hauer, M.**, Baker, J., and Brown, W., (2013). "Indirect estimates of the total fertility rate using the child  woman/ratio: A comparison with the Bogue-Palmore method.'' *PloS one 8(6)*</td><td> [WEB](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067226) / [PDF](./papers/2013-PlosOneHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0067226" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>        
+ <tr><td>[1.] **Hauer, M.**, (2013). "A 3D spatio-temporal geovisualization of subcounty estimates of historic housing density in metro Atlanta, 1940-2009.'' *Spatial Demography 1(2), 146-161*</td><td> [WEB](http://link.springer.com/article/10.1007/BF03354895) / [PDF](./papers/2013-SpatDemHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/BF03354895" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>      
+  
+</table>
+
+
+<!--- 
 [7.] **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." [*Nature Climate Change  7(5): 321-325*](http://dx.doi.org/10.1038/nclimate3271). [[PDF]](./papers/2017-NCLIMHauerREDUCED.pdf)
 
 > <font size="2"> * Featured in **over 85 national and international news outlets**.<br>
@@ -53,6 +75,7 @@ Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-lev
 [2.] **Hauer, M.**, Baker, J., and Brown, W., (2013). "Indirect estimates of the total fertility rate using the child                        woman/ratio: A comparison with the Bogue-Palmore method.'' [*PloS one 8(6)*](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067226). [[PDF]](./papers/2013-PlosOneHauer.pdf)
 
 [1.] **Hauer, M.**, (2013). "A 3D spatio-temporal geovisualization of subcounty estimates of historic housing density in metro Atlanta, 1940-2009.'' [*Spatial Demography 1(2), 146-161*](http://link.springer.com/article/10.1007/BF03354895). [[PDF]](./papers/2013-SpatDemHauer.pdf)
+-->
 
----
+
 

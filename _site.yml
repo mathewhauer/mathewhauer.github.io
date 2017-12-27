@@ -21,4 +21,3 @@ output:
     urlcolor: blue
     include:
       after_body: _footer.html
-      
