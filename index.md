@@ -25,8 +25,6 @@ My current work focuses on sea-level rise; the who's, where's, and how many's of
 
 Schmertmann, C., & **Hauer, M.** "Bayesian estimation of total fertility from a population's age-sex structure." *Statistical Modelling* (Forthcoming). [[PDF]](https://osf.io/preprints/socarxiv/je59v/)
 
-Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-level rise risk assessments." *Applied Geographer* (Forthcoming). [[PDF]](https://osf.io/preprints/socarxiv/pkr75/) 
-
 **Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.* Under review *Lancet Planetary Health* [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
 
 **Hauer, M.**, Mishra, D., Pippin, J.S., Hardy, D. No landward retreat: Confronting 80 years of sea level rise in Louisiana. Under review *Scientific Reports*.
@@ -40,6 +38,7 @@ Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-lev
 ### Articles
 
 <table class="padded-table">
+ <tr><td>[8.] Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-level rise risk assessments."  </td><td>[WEB](https://www.sciencedirect.com/science/article/pii/S0143622817309189) / [PDF](./papers/2018-AppliedGeographerHardyHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.apgeog.2017.12.019" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
   <tr><td>[7.] **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change  7(5): 321-325*  </td><td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
   <tr><td>[6.] Shannon, S. & **Hauer, M.** (2017). "A life table approach to estimating disproportionate minority contact in the juvenile justice system." *Justice Quarterly*  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/07418825.2017.1315163) / [PDF](./papers/2017-JusticeQuarterlyShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/07418825.2017.1315163" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
   <tr><td>[5.] Shannon, J., **Hauer, M.**, Shannon, S., and Weaver, A. (2017). "The Suburbanization of Food Insecurity: An Analysis of Projected     Trends in the Atlanta Metropolitan Area." *Professional Geographer*  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/00330124.2017.1325751) / [PDF](./papers/2017-ProGeographerShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/00330124.2017.1325751" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
