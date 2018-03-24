@@ -14,7 +14,7 @@ table.padded-table td { padding:6px; min-width:100px }
 
 
 
-[Curriculum Vitae](./papers/Hauer_CV.pdf)
+[Curriculum Vitae](./CV/Hauer_CV.pdf)
 
 
 My current work focuses on sea-level rise; the who's, where's, and how many's of the populations affected. I am particularly interested in the impacts of sea-level rise and climate change writ large on society. I'm also interested in demographic techniques and methods.
