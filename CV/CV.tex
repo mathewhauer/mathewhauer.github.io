@@ -1,0 +1,210 @@
+\documentclass[letterpaper,11pt]{article}
+\usepackage{cv}
+\usepackage{array,etoolbox}
+\preto\tabular{\setcounter{magicrownumbers}{0}}
+\newcounter{magicrownumbers}
+\newcommand\rownumber{\stepcounter{magicrownumbers}\arabic{magicrownumbers}}
+\usepackage{hyperref}
+\usepackage{color}
+\usepackage{xcolor}
+\usepackage{multicol}
+\usepackage{changepage}
+\usepackage[all]{nowidow}
+\usepackage [autostyle, english = american]{csquotes}
+\MakeOuterQuote{"}
+\hypersetup{
+    pdftitle={},
+    pdfauthor={},
+    pdfsubject={},
+    pdfkeywords={},
+    colorlinks=true,  
+    urlcolor = blue, % no lik border color
+   %allbordercolors=white    % white border color for all
+}
+\usepackage [english]{babel}
+\usepackage{etaremune}
+%\renewcommand{\labelenumi}{[\theenumi]}
+% In your .tex file
+% !TEX program = xelatex
+
+\name{Mathew E Hauer}
+\info{Address: & Carl Vinson Institute of Government, University of Georgia\\
+      Phone: & (706) 542-9369\\
+      Email: & \href{mailto:hauer@uga.edu}{hauer@uga.edu}\\
+    %Web: & \href{http://www.mathewhauer.com}{mathewhauer.com} \\
+    Homepage: &  \href{https://mathewhauer.github.io/}{mathewhauer.github.io/}\\
+    Google Scholar: &  \href{https://scholar.google.com/citations?user=SI0ST5YAAAAJ}{Profile} \\
+      }
+\newcommand{\makeauthorbold}[1]{%
+\DeclareNameFormat{author}{%
+  \ifnumequal{\value{listcount}}{1}
+    {\ifnumequal{\value{liststop}}{1}
+      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
+      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
+    {\ifnumless{\value{listcount}}{\value{liststop}}
+      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
+      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
+    }%
+}%
+}
+\makeauthorbold{Hauer}
+
+
+
+\begin{document}
+
+\maketitle
+
+
+%%%                EDUCATION                        %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{EDUCATION}
+\begin{tabular}{llll}
+2016 & Ph.D. & Geography & University of Georgia\\   
+&& \multicolumn{2}{1} {\scriptsize \textit{"Ripple Effect: How Sea Level Rise Induced Migration Will Reshape the U.S. Population Landscape"}}\\
+2008 & M.S. & Demography & Florida State University\\
+&& \multicolumn{2}{l} {\scriptsize \textit{"The Decomposition of Period and Cohort Life Tables"}}\\
+2007 & B.S. & Sociology & Florida State University\\
+2007 & B.S. & Social Sciences & Florida State University\\
+%2007 & Undergrad Certificate & Demography & Florida State University\\
+\end{tabular}
+
+%%%          Research Interests                     %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Research Interests}
+%Population Estimates and Projections; Demographic Techniques; Applied Demography; Population and the Environment; Migration studies; Climate Change; GIS; Spatial Analysis
+
+%%%                Current Positions                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Positions}
+\begin{tabular}{lll}
+2013 - & Public Service Associate & CVIOG, University of Georgia\\
+2011 - & Director, Data Science \& Demographic Analysis Unit & CVIOG, University of Georgia\\
+2009 - 2013 & Public Service Assistant & CVIOG, University of Georgia\\
+2009 - 2009 & Survey Statistician & US Census Bureau, Atlanta\\
+%2008 - 2009 & Planner & Atlanta Regional Commission, Atlanta\\
+2008 - 2008 & Statistician & US Census Bureau, Washington DC\\
+\end{tabular}
+
+
+%%%                     Honors                      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Honors and Awards}
+\begin{tabular}{ll}
+%2018 & Nystrom Dissertation Award, Association of American Geographers\\
+2017 & Excellence in Research Award, University of Georgia Graduate School. \\
+2016 & Excalibur Award, Technology Association of Georgia.\\
+ & Top Honors, Georgia Technology Authority.\\
+ & Policy Communications Fellow, Population Reference Bureau.\\
+2015 & Top 30 Under 30 Young Alumni, Florida State University.\\
+ & Best Poster Award, South East Climate Consortium.\\
+2014 & E. Walter Terrie Award, Southern Demographic Association.\\
+2013 & Delta Epsilon Iota Honor Society.\\
+\end{tabular}
+
+
+
+%2017 & John Russell Mather Paper of the Year Award, Climate Specialty Group, American Association of Geographers --- Did not win \\
+
+%2017 & Dorothy S. Thomas Award, Population Association of America --- Did not win \\
+%%%                     Publications                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Publications}
+\subfile{publications}
+
+
+%%%                     Grants                      %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Grants}
+\subfile{grants}
+
+%%%              Teaching Experience                %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Teaching Experience}
+\begin{tabularx}{\linewidth}{l c c}
+\textbf{University of Georgia} & & \\
+\hline
+\textbf{Course Name} & \textbf{Course Number} & \textbf{Semesters} \\
+Family Demography and Public Policy & HACE 4400/6400 & 1\\
+ & &\\
+\textbf{Training Sessions} & & \\
+\hline
+\textbf{Course Name} & \textbf{Organization} & \textbf{Times} \\
+Population for Public Policy & Georgia Municipal Association & 12\\
+Population for Public Policy & ACCG & 9\\
+Demography and Higher Education MOOC & Georgia Board of Regents & 1\\
+\hline
+\end{tabularx}
+
+
+
+%%%                Selected Press Coverage                       %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Selected Press Coverage}
+\subfile{interviews}
+
+%%%                Invited Presentations            %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Invited Presentations}
+Brown University (Dec 2017), Florida State University (Dec 2017), University of Texas at San Antonio (Dec 2017), Florida State University (Oct 2017), NOAA (Jul 2017), Texas A\&M University (Nov 2016), University of Georgia (Mar 2016), Board of Regents of the University System of Georgia (Jan 2016), University of Georgia (Feb 2016), College of William \& Mary (Apr 2015), Florida State University (Sep 2013), Testimony at the Georgia Legislature (Jun 2012), Federal Reserve Bank of Atlanta (Feb 2012)
+%\begin{tabularx}{\linewidth}{lX}
+%2016 & "Projecting the US Population in Lieu of Sea Level Rise," University of Georgia's School of Public and International Affairs.\\
+%2016 & "Board of Regents Demonstration Project," University of Georgia's Institute of Higher Education.\\
+%2015 & "Sea Level Rise and Small Area Population Projections: A Coast in Trouble," \textbf{College of William \& Mary's Thomas Jefferson Public Policy Institute}.\\
+%2013 & "Sea Level Rise and Small Area Population Projections: A Coast in Trouble," Florida State University's Center for Demography and Population Health.\\
+%2012 & On the proposed City of DeKalb, \textbf{Testimony at the Georgia Legislature}.\\
+%2012 & "Georgia's Immigration", \textbf{Federal Reserve Bank of Atlanta.} \\
+%2011 & "Projecting Sea Level Rise and Small Area Population Projections for Georgia's Coastal Communities," for Georgia Coastal Research Colloquium.\\
+%\end{tabularx}
+
+%%%               Conference Papers                 %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Refereed Conference Presentations}
+%\subfile{conference_papers}
+
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%%%               Outreach                          %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Outreach}
+
+%%%               Service Presentations             %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\subsection{Selected Service Presentations}
+%\subfile{presentations_abridged}
+
+
+
+%%%              Organization Memberships           %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+%\section{Membership in Associations}
+%Member, Population Association of America\\
+%Member, Committee on Applied Demography\\
+%Member, American Association of Geographers\\
+%Member, Southern Demographic Association\\
+%Member, Southeastern Division of the American Association of Geographers
+
+%%%              Professional Service               %%%
+%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%%
+\section{Technical Committees and Professional Service}
+% \subfile{proservice}
+
+
+\section{Departmental/University Service}
+\begin{tabularx}{\linewidth}{lX}
+2016 & \textit{Chair}, University Search Committee, Carl Vinson Institute of Government.\\
+2014 & \textit{Member}, University Search Committee, Department of Family and Consumer Sciences.\\
+2013 & \textit{Member}, University Search Committee, Carl Vinson Institute of Government's Training Department.\\
+\end{tabularx}
+
+\section{Ad Hoc Reviewer}
+
+\textbf{Journals}\\
+Demographic Research (2), Climatic Change (2), Population Research \& Policy Review (2), Nature Climate Change (1), Mitigation and Adaptation Strategies for Global Change (1)\\
+\textbf{Grants}\\
+Florida SeaGrant (1), National Science Foundation (1)\\
+
+%\newpage
+%\section{References}
+%\subfile{references}
+
+\end{document}
