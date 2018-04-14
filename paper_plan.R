@@ -42,3 +42,7 @@ journals <- tribble(
 
 #----Merge----
 papers <- left_join(papers, journals)
+
+(tot<-sum(papers$tenure))
+(sociology<-sum(papers$tenurable))
+(ratio<-sociology/tot)
