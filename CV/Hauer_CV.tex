@@ -35,20 +35,6 @@
     Homepage: &  \href{https://mathewhauer.github.io/}{mathewhauer.github.io/}\\
     Google Scholar: &  \href{https://scholar.google.com/citations?user=SI0ST5YAAAAJ}{Profile} \\
       }
-\newcommand{\makeauthorbold}[1]{%
-\DeclareNameFormat{author}{%
-  \ifnumequal{\value{listcount}}{1}
-    {\ifnumequal{\value{liststop}}{1}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4\addcomma\isdot}}{##1\addcomma\addspace ##4\addcomma\isdot}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{##1\addcomma\addspace ##4}}{##1\addcomma\addspace ##4}}}
-    {\ifnumless{\value{listcount}}{\value{liststop}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4}}{\addcomma\addspace ##1\addcomma\addspace ##4}}
-      {\expandafter\ifstrequal{##1}{#1}{\textbf{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}{\addcomma\addspace ##1\addcomma\addspace ##4\addcomma\isdot}}%
-    }%
-}%
-}
-\makeauthorbold{Hauer}
-
 
 
 \begin{document}
