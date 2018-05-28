@@ -15,9 +15,9 @@ papers <- tribble(
   9, 2018, "iTFR Carl 1", "Schmertmann, Hauer", 0, 0, 1, 1, 1, 1,1, 1, "Statistical Modelling", "iTFR",
   10, 2019, "CC Life expectancy", "Hauer, Santos", 1, 0,1, 1, 1, 1, 0, 0, "Nature Climate Change", "CC mortality",
   11, 2019, "Louisiana SLR", "Hauer, Hardy, Mishra, Pippin", 1, 1,1, 1, 1, 1, 0, 0, "Pop & Env", "dissertation",
-  12, 2019, "iTFR2", "Hauer, Schmertmann", 1,0,1,1,0,0,0,0,"Science", "iTFR",
-  13, 2019, "Fukushima", "Hauer, Holloway, Oda",1,1,1,1,1,0,0,0,"Pop & Env", "dissertation",
-  14, 2019, "County Pop Projections", "Hauer",1,1,1,1,0,0,0,0,"Scientific Data", "county projections",
+  12, 2019, "iTFR2", "Hauer, Schmertmann", 1,0,1,1,1,0,0,0,"Science", "iTFR",
+  13, 2019, "Fukushima", "Hauer, Holloway, Oda",1,1,1,1,1,0,0,0,"Demography", "dissertation",
+  14, 2019, "County Pop Projections", "Hauer",1,1,1,1,0,0,0,0,"Demography", "county projections",
   15, 2019, "SLR Exposure", "Hauer, SLR Group",1,0,1,1,0,0,0,0, "Nature Climate Change", "SLR 1",
   16, 2019, "SLR National Exposure", "Hauer, Hardy, SLR Group",1,0,1,0,0,0,0,0, "Nature Climate Change", "SLR 1",
   17, 2019, "iTFR County", "Hauer, Schmertmann",1,1,1,0,0,0,0,0,"Demography", "iTFR"
@@ -42,6 +42,7 @@ journals <- tribble(
 
 #----Merge----
 papers <- left_join(papers, journals)
+workingppapers <- filter(papers, published== 0)
 
 (tot<-sum(papers$tenure))
 (sociology<-sum(papers$tenurable))
