@@ -22,6 +22,8 @@ scholars <- tribble(
   "Robert Hummer", "UNC-Chapel Hill", "Full", 1993, "rfgSZsAAAAAJ", "Aspirational",
   "Brian ONeill", "NCAR", "Full", 1999, "JDwtajkAAAAJ", "Aspirational",
   "Francesco Billari", "Bocconi" , "Full", 1998 , "-JR6yo4AAAAJ", "Aspirational",
+  "Wendy Manning", "Bowling Green", "Full", 1992, "n7EP8qUAAAAJ", "PRESIDENT",
+  "Daniel Lichter", "Cornell", "Full", 1981, "6-C8WyIAAAAJ", "PRESIDENT",
   "Doug Massey", "Princeton", "Full", 1978, "T758DcgAAAAJ", "HAHAHA"
 )
 
@@ -44,7 +46,6 @@ topjournals <- c("American Journal of Sociology",
                  "Social Forces",
                  "Social forces",
                  "social forces",
-                 "Journal of Marriage and the Family",
                  "Demography",
                  "Nature Climate Change",
                  "Nature climate change",
