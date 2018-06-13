@@ -1,12 +1,12 @@
 library(scholar)
 library(tidyverse)
-
+ 
 scholars <- tribble(
   ~scholar, ~University, ~Rank, ~YearPhD, ~ID, ~Type,
-  "Matt Hauer", "FSU", "Assistant", 2016, "SI0ST5YAAAAJ", "",
-  "Leah VanWey", "Brown", "Full", 2001, "orXblC4AAAAJ", "Aspirational",
-  "Beth Fussell", "Brown", "Associate", 1998, "K0JmnvgAAAAJ", "Aspirational",
-  "Clark Gray", "UNC-Chapel Hill", "Associate", 2008, "iWkPSDgAAAAJ", "Aspirational",
+  "Matt Hauer",      "FSU", "Assistant", 2016, "SI0ST5YAAAAJ", "",
+  "Leah VanWey",     "Brown", "Full", 2001, "orXblC4AAAAJ", "Aspirational",
+  "Beth Fussell",    "Brown", "Associate", 1998, "K0JmnvgAAAAJ", "Aspirational",
+  "Clark Gray",      "UNC-Chapel Hill", "Associate", 2008, "iWkPSDgAAAAJ", "Aspirational",
   "Joshua Goldstein", "Berkeley", "Full", 1996, "xR01n-sAAAAJ", "Aspirational",
   "Brian Thiede", "Penn State", "Assistant", 2014, "BhqzUvMAAAAJ", "Peer",
   "Jack DeWaard", "Minnesota", "Assistant", 2013, "pzaqmWYAAAAJ", "Peer",
@@ -38,6 +38,8 @@ scholars <- tribble(
   "Paula England", "NYU", "Full", 1975, "u8_cxocAAAAJ", "Harriet B. Presser Award",
   "James Vaupel", "MPIDR", "Full", 1978,"xTyO1rEAAAAJ", "Mindel C. Sheps Award",
   "Sara McLanahan", "Princeton", "Full", 1979, "Wp5P5TwAAAAJ", "Irene B. Taeuber Award",
+  "Steven Ruggles", "Minnesota" , "Full", 1985, "nvIl0pUAAAAJ", "President",
+  "Robert Mare", "UCLA", "Full", 1977, "R77Xmr0AAAAJ", "President",
   "Doug Massey", "Princeton", "Full", 1978, "T758DcgAAAAJ", "HAHAHA"
 )
 
@@ -65,19 +67,24 @@ topjournals <- c("American Journal of Sociology",
                  "Nature climate change",
                  "Nature",
                  "Science",
+                 "Global Environmental Change",
                  "Proceedings of the National Academy of Sciences",
                  "Jama")
 
 for (i in 1:nrow(scholars)) {
   scholars$num[i] = get_num_top_journals(scholars$ID[i], topjournals)
+  scholars$years[i] = 2018-scholars$YearPhD[i]
   scholars$numperyear[i] = scholars$num[i] /(2018-scholars$YearPhD[i])
 }
 scholars$scholar
 
-a<-get_publications("K9cUPCAAAAAJ")
+# a<-get_publications("K9cUPCAAAAAJ")
 
-get_num_top_journals("5HRNTzAAAAAJ", topjournals)
+# get_num_top_journals("5HRNTzAAAAAJ", topjournals)
 
 ecdf(scholars$numperyear)(scholars$numperyear[which(scholars$scholar == "Matt Hauer")])
+
+quantile(scholars$numperyear, 0.5)
+
 
 
