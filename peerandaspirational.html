@@ -1,0 +1,356 @@
+<!DOCTYPE html>
+
+<html xmlns="http://www.w3.org/1999/xhtml">
+
+<head>
+
+<meta charset="utf-8" />
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<meta name="generator" content="pandoc" />
+
+
+<meta name="author" content="hauer" />
+
+
+<title>peerandaspirational.R</title>
+
+<script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
+<meta name="viewport" content="width=device-width, initial-scale=1" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
+<script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
+<script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
+<script src="site_libs/navigation-1.1/tabsets.js"></script>
+<link href="site_libs/highlightjs-1.1/textmate.css" rel="stylesheet" />
+<script src="site_libs/highlightjs-1.1/highlight.js"></script>
+
+<style type="text/css">code{white-space: pre;}</style>
+<style type="text/css">
+  pre:not([class]) {
+    background-color: white;
+  }
+</style>
+<script type="text/javascript">
+if (window.hljs && document.readyState && document.readyState === "complete") {
+   window.setTimeout(function() {
+      hljs.initHighlighting();
+   }, 0);
+}
+</script>
+
+
+
+<style type="text/css">
+h1 {
+  font-size: 34px;
+}
+h1.title {
+  font-size: 38px;
+}
+h2 {
+  font-size: 30px;
+}
+h3 {
+  font-size: 24px;
+}
+h4 {
+  font-size: 18px;
+}
+h5 {
+  font-size: 16px;
+}
+h6 {
+  font-size: 12px;
+}
+.table th:not([align]) {
+  text-align: left;
+}
+</style>
+
+<link rel="stylesheet" href="fontawesome-free-5.0.2\web-fonts-with-css\css\fontawesome.css" type="text/css" />
+
+</head>
+
+<body>
+
+<style type = "text/css">
+.main-container {
+  max-width: 940px;
+  margin-left: auto;
+  margin-right: auto;
+}
+code {
+  color: inherit;
+  background-color: rgba(0, 0, 0, 0.04);
+}
+img {
+  max-width:100%;
+  height: auto;
+}
+.tabbed-pane {
+  padding-top: 12px;
+}
+button.code-folding-btn:focus {
+  outline: none;
+}
+</style>
+
+
+<style type="text/css">
+/* padding for bootstrap navbar */
+body {
+  padding-top: 45px;
+  padding-bottom: 40px;
+}
+/* offset scroll position for anchor links (for fixed navbar)  */
+.section h1 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+
+.section h2 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h3 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h4 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h5 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+.section h6 {
+  padding-top: 50px;
+  margin-top: -50px;
+}
+</style>
+
+<script>
+// manage active state of menu based on current page
+$(document).ready(function () {
+  // active menu anchor
+  href = window.location.pathname
+  href = href.substr(href.lastIndexOf('/') + 1)
+  if (href === "")
+    href = "index.html";
+  var menuAnchor = $('a[href="' + href + '"]');
+
+  // mark it active
+  menuAnchor.parent().addClass('active');
+
+  // if it's got a parent navbar menu mark it active as well
+  menuAnchor.closest('li.dropdown').addClass('active');
+});
+</script>
+
+
+<div class="container-fluid main-container">
+
+<!-- tabsets -->
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
+
+<!-- code folding -->
+
+
+
+
+
+
+<div class="navbar navbar-default  navbar-fixed-top" role="navigation">
+  <div class="container">
+    <div class="navbar-header">
+      <button type="button" class="navbar-toggle collapsed" data-toggle="collapse" data-target="#navbar">
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+        <span class="icon-bar"></span>
+      </button>
+      <a class="navbar-brand" href="index.html">HOME</a>
+    </div>
+    <div id="navbar" class="navbar-collapse collapse">
+      <ul class="nav navbar-nav">
+        
+      </ul>
+      <ul class="nav navbar-nav navbar-right">
+        
+      </ul>
+    </div><!--/.nav-collapse -->
+  </div><!--/.container -->
+</div><!--/.navbar -->
+
+<div class="fluid-row" id="header">
+
+
+
+<h1 class="title toc-ignore">peerandaspirational.R</h1>
+<h4 class="author"><em>hauer</em></h4>
+<h4 class="date"><em>Thu May 24 18:27:34 2018</em></h4>
+
+</div>
+
+
+<pre class="r"><code>library(scholar)
+library(tidyverse)</code></pre>
+<pre><code>## Loading tidyverse: ggplot2
+## Loading tidyverse: tibble
+## Loading tidyverse: tidyr
+## Loading tidyverse: readr
+## Loading tidyverse: purrr
+## Loading tidyverse: dplyr</code></pre>
+<pre><code>## Conflicts with tidy packages ----------------------------------------------</code></pre>
+<pre><code>## filter(): dplyr, stats
+## lag():    dplyr, stats</code></pre>
+<pre class="r"><code>scholars &lt;- tribble(
+  ~scholar, ~University, ~Rank, ~YearPhD, ~ID,
+  &quot;Matt Hauer&quot;, &quot;FSU&quot;, &quot;Assistant&quot;, 2017, &quot;SI0ST5YAAAAJ&quot;,
+  &quot;Leah VanWey&quot;, &quot;Brown&quot;, &quot;Full&quot;, 1999, &quot;orXblC4AAAAJ&quot;,
+  &quot;Beth Fussell&quot;, &quot;Brown&quot;, &quot;Associate&quot;, 1998, &quot;K0JmnvgAAAAJ&quot;,
+  &quot;Clark Gray&quot;, &quot;UNC-Chapel Hill&quot;, &quot;Associate&quot;, 2008, &quot;iWkPSDgAAAAJ&quot;,
+  &quot;Brian Thiede&quot;, &quot;Penn State&quot;, &quot;Assistant&quot;, 2015, &quot;BhqzUvMAAAAJ&quot;,
+  &quot;Jack DeWaard&quot;, &quot;Minnesota&quot;, &quot;Assistant&quot;, 2013, &quot;pzaqmWYAAAAJ&quot;,
+  &quot;Anne Barrett&quot;, &quot;FSU&quot;, &quot;Full&quot;, 1992, &quot;zMzb8eMAAAAJ&quot;,
+  &quot;Wolfgang Lutz&quot;, &quot;IIASA&quot;, &quot;Full&quot;, 1980, &quot;QRH1wRYAAAAJ&quot;,
+  &quot;Hiram Beltran-Sanchez&quot;, &quot;USC&quot;, &quot;Associate&quot;, 2008, &quot;WKlQeJsAAAAJ&quot;,
+  &quot;Jason Boardman&quot;, &quot;UC-Boulder&quot;, &quot;Full&quot;, 1999, &quot;QOZAiO0AAAAJ&quot;,
+  &quot;Yang Claire Yang&quot;, &quot;UNC-Chapel Hill&quot;, &quot;Full&quot;, 2001, &quot;ftiJp4kAAAAJ&quot;,
+  &quot;Aliya Saperstein&quot;, &quot;Stanford&quot;, &quot;Associate&quot;, 2007, &quot;KPaSND8AAAAJ&quot;,
+  &quot;Jenna Nobles&quot;, &quot;Wisconsin&quot;, &quot;Associate&quot;, 2007, &quot;DqwADa8AAAAJ&quot;
+)
+
+scholars$num = NA
+
+topjournals &lt;- c(&quot;American Journal of Sociology&quot;,
+                 &quot;American Sociological Review&quot;,
+                 &quot;Annual Review of Sociology&quot;,
+                 &quot;Social Forces&quot;,
+                 &quot;Journal of Marriage and the Family&quot;,
+                 &quot;Demography&quot;,
+                 &quot;Nature Climate Change&quot;, 
+                 &quot;Nature climate change&quot;,
+                 &quot;Nature&quot;,
+                 &quot;Science&quot;,
+                 &quot;Proceedings of the National Academy of Sciences&quot;)
+
+for (i in 1:nrow(scholars)) {
+  scholars$num[i] = get_num_top_journals(scholars$ID[i], topjournals)
+}
+(scholars &lt;- select(scholars, -ID))</code></pre>
+<pre><code>## # A tibble: 13 x 5
+##                  scholar      University      Rank YearPhD   num
+##                    &lt;chr&gt;           &lt;chr&gt;     &lt;chr&gt;   &lt;dbl&gt; &lt;int&gt;
+##  1            Matt Hauer             FSU Assistant    2017     2
+##  2           Leah VanWey           Brown      Full    1999     7
+##  3          Beth Fussell           Brown Associate    1998     3
+##  4            Clark Gray UNC-Chapel Hill Associate    2008     3
+##  5          Brian Thiede      Penn State Assistant    2015     0
+##  6          Jack DeWaard       Minnesota Assistant    2013     2
+##  7          Anne Barrett             FSU      Full    1992     1
+##  8         Wolfgang Lutz           IIASA      Full    1980    18
+##  9 Hiram Beltran-Sanchez             USC Associate    2008     3
+## 10        Jason Boardman      UC-Boulder      Full    1999    18
+## 11      Yang Claire Yang UNC-Chapel Hill      Full    2001    10
+## 12      Aliya Saperstein        Stanford Associate    2007     7
+## 13          Jenna Nobles       Wisconsin Associate    2007     4</code></pre>
+
+<footer role="contentinfo" id="site-footer">
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- /.bottom-menu -->
+<hr>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+ 
+
+<div class="row">
+  <div class="column">
+    <h4>ABOUT</h4>
+     
+    <img src="images/headshot.png" width="100px" style="float:left" HSPACE="10">
+    I am an Applied Demographer at the <a href="https://cviog.uga.edu/">Carl Vinson Institute of Government</a> at the <a href="https://www.uga.edu/">University of Georgia</a>.
+  </div>
+  <div class="column">
+    <h4>CONTACT</h4>
+    <i class="fa fa-university"></i> 201 N. Milledge Ave., Athens, GA, 30602<br>
+    <i class="fa fa-envelope"></i> <a href= "mailto:hauer@uga.edu">hauer@uga.edu</a><br>
+    <i class="fa fa-twitter-square"></i> <a href="http://www.twitter.com/thehauer">@thehauer</a> on Twitter.<br>
+    <i class="fa fa-github"></i> <a href= "https://github.com/mathewhauer">on GitHub</a>.<br>
+    <i class="fa fa-graduation-cap"></i> <a href= "https://scholar.google.com/citations?user=SI0ST5YAAAAJ&hl=en">Google Scholar</a>.<br>
+  </div>
+</div>
+
+
+<hr>
+
+	<p class="copyright">&#169; 2017,
+		powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com">RMarkdown</a> + <a href="http://github.com">Github</a>.</p>
+		</footer>
+
+
+
+</div>
+
+<script>
+
+// add bootstrap table styles to pandoc tables
+function bootstrapStylePandocTables() {
+  $('tr.header').parent('thead').parent('table').addClass('table table-condensed');
+}
+$(document).ready(function () {
+  bootstrapStylePandocTables();
+});
+
+
+</script>
+
+<!-- dynamically load mathjax for compatibility with self-contained -->
+<script>
+  (function () {
+    var script = document.createElement("script");
+    script.type = "text/javascript";
+    script.src  = "https://mathjax.rstudio.com/latest/MathJax.js?config=TeX-AMS-MML_HTMLorMML";
+    document.getElementsByTagName("head")[0].appendChild(script);
+  })();
+</script>
+
+</body>
+</html>

@@ -27,11 +27,11 @@ Schmertmann, C., & **Hauer, M.** "Bayesian estimation of total fertility from a 
 
 **Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.* Under review *Lancet Planetary Health* [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
 
-**Hauer, M.**, Mishra, D., Pippin, J.S., Hardy, D. No landward retreat: Confronting 80 years of sea level rise in Louisiana. Under review *Scientific Reports*.
+**Hauer, M.**, Mishra, D., Pippin, J.S., Hardy, D. No landward retreat: Confronting 80 years of sea level rise in Louisiana. Under review *Population and Environment*. [[PDF]](https://osf.io/preprints/socarxiv/n7pt5/)
     
 **Hauer, M.**, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.
     
-**Hauer, M.** & Schmertmann, C. A scale and temporally independent, parameter-free method for estimating total fertility rates.
+**Hauer, M.** & Schmertmann, C. A scale and temporally independent, parameter-free method for estimating total fertility rates. [[PDF]](https://osf.io/preprints/socarxiv/2f3v6/)
 
 ----
 
