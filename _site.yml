@@ -5,10 +5,10 @@ navbar:
   left:
     - text: "Team"
       href: team.html
-    #- text: "CV"
-    #  href: basic_workflow.html
-    #- text: "Getting Sophisticated"
-    #  href: getting_sophisticated.html
+    - text: "Research"
+      href: research.html
+    - text: "Papers"
+      href: publications.html
     #- text: "Your Turn"
     #  href: your_turn.html
 output_dir: "."
