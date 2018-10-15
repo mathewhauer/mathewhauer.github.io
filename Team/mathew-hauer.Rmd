@@ -49,7 +49,7 @@ Principal Investigator
     <i class="fa fa-github"></i> <a href= "https://github.com/mathewhauer">on GitHub</a>.<br>
     <i class="fa fa-graduation-cap"></i> <a href= "https://scholar.google.com/citations?user=SI0ST5YAAAAJ&hl=en">Google Scholar</a>.<br>
 
-<br><br><br>
+<br><br><br><br><br><br>
 <br>
 <br>
 <br>
