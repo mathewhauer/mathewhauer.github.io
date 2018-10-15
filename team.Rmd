@@ -6,5 +6,26 @@ output:
     fig_width: 1
 ---
 
-[Curriculum Vitae](./CV/Hauer_CV.pdf)
+<!---From http://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown:
+Put in your css file or directly in rmarkdown--->
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+</style>
+
+<div class="col2">
+[![](images/headshot.png){width=150px}](Team/mathew-hauer.html)
+
+<br>
+<br>
+
+
+
+[**Mathew E. Hauer**](Team/mathew-hauer.html)
+
+Principal Investigator
+</div>
 

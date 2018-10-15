@@ -198,7 +198,21 @@ $(document).ready(function () {
 </div>
 
 
-<p><a href="./CV/Hauer_CV.pdf">Curriculum Vitae</a></p>
+<!---From http://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown:
+Put in your css file or directly in rmarkdown--->
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
+</style>
+<div class="col2">
+<p><a href="Team/mathew-hauer.html"><img src="images/headshot.png" width="150" /></a></p>
+<p><br> <br></p>
+<p><a href="Team/mathew-hauer.html"><strong>Mathew E. Hauer</strong></a></p>
+<p>Principal Investigator</p>
+</div>
 
 <footer role="contentinfo" id="site-footer">
    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
