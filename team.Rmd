@@ -24,7 +24,7 @@ Put in your css file or directly in rmarkdown--->
 
 
 
-[**Mathew E. Hauer**](Team/mathew-hauer.html)
+[**Mathew E. Hauer**](mathew-hauer.html)
 
 Principal Investigator
 </div>
