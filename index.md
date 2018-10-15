@@ -1,5 +1,5 @@
 ---
-title: "Mathew E Hauer"
+title: "Clim-Pact Lab @ Florida State University"
 #author:  "[Mathew E Hauer](https://github.com/mathewhauer)"
 output:
   html_document:
@@ -17,7 +17,11 @@ table.padded-table td { padding:6px; min-width:100px }
 [Curriculum Vitae](./CV/Hauer_CV.pdf)
 
 
-My current work focuses on sea-level rise; the who's, where's, and how many's of the populations affected. I am particularly interested in the impacts of sea-level rise and climate change writ large on society. I'm also interested in demographic techniques and methods.
+We are intersted in **demographic population projections and their applications**, **human mobility**, **human fertility**, and **human mortality** with an emphasis on how **climate change** will impact these processes. Our work aims to link **climate change** with **demographic processes** to understand how climate change will impact society.
+
+Our research **stands at the interface between sociology, demography, and climate science**, using demographic techniques and sociological theory to describe the impacts of the biggest challenge of our time: climate change.
+
+
 
 ----
  

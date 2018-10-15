@@ -3,8 +3,8 @@ name: "R Markdown Websites Tutorial"
 navbar:
   title: "HOME"
   left:
-    #- text: "Publications"
-    #  href: publications.html
+    - text: "Team"
+      href: team.html
     #- text: "CV"
     #  href: basic_workflow.html
     #- text: "Getting Sophisticated"
