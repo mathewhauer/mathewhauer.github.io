@@ -14,7 +14,7 @@ table.padded-table td { padding:6px; min-width:100px }
 
 <center>
 
-![](./images/SSP22100.jpg)
+![](./images/SSP2_animation.gif)
 
 </center>
 
