@@ -19,29 +19,7 @@ Put in your css file or directly in rmarkdown--->
 <div class="col2">
 
 ![](./images/headshot.png)
-<br>
-<br>
 
-
-
-# Mathew E. Hauer
-
-Principal Investigator
-</div>
-
-
-<!-- #################################### -->
-
-<style>
-  .col2 {
-    columns: 2 200px;         /* number of columns and width in pixels*/
-    -webkit-columns: 2 200px; /* chrome, safari */
-    -moz-columns: 2 200px;    /* firefox */
-  }
-</style>
-
-<div class="col2">
-<br>
 <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
 <i class="fa fa-university"></i> 600 W. College Ave., Tallahassee, FL, 32306<br>
     <i class="fa fa-envelope"></i> <a href= "mailto:mehauer@fsu.edu">mehauer@fsu.edu</a><br>
@@ -52,8 +30,12 @@ Principal Investigator
 <br><br><br><br><br><br>
 <br>
 <br>
+
 <br>
 <br>
+
+
+
 [A copy of my CV can be found here](../CV/Hauer_CV.pdf)
 
 Dr. Mathew Hauer is an Assistant Professor in the Department of Sociology and an Affiliate of the Center for Demography and Population Health at Florida State University. He obtained his Ph.D. in Geography at the University of Georgia. Prior to arriving at FSU, Dr. Hauer spent nearly a decade directing the Applied Demography Program at the University of Georgia.
