@@ -17,7 +17,7 @@ Put in your css file or directly in rmarkdown--->
 </style>
 
 <div class="col2">
-[![](images/headshot.png){width=150px}](Team/mathew-hauer.html)
+[![](images/headshot.png){width=150px}](mathew-hauer.html)
 
 <br>
 <br>
