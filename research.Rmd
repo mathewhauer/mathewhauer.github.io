@@ -16,7 +16,7 @@ a.imagelink {
 </style>
 
 
-Research in the Clim-Pact Lab focuses on the intersection between climate change and demographic processes to better understand the current and projected impacts of climate change on human society. Our long-term research goal is to holistically describe these impacts. Unfortunately, many demographic techniques and methods are underdeveloped to properly quantify climate impacts. Our lab routinely develops new techniques and methods and harnesses these developments to quantify climate impacts on human populations.
+Research in the Clim-pact Lab focuses on the intersection between climate change and demographic processes to better understand the current and projected impacts of climate change on human society. Our long-term research goal is to holistically describe these impacts. Unfortunately, many demographic techniques and methods are underdeveloped to properly quantify climate impacts. Our lab routinely develops new techniques and methods and harnesses these developments to quantify climate impacts on human populations.
 <center>
 
 ![](./images/researchthemes.png)
