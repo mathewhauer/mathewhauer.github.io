@@ -36,3 +36,4 @@ vignettes/*.pdf
 # also
 README.html
 *.log
+*.css
