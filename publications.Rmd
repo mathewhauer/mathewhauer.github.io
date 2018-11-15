@@ -12,6 +12,8 @@ table.padded-table td { padding:6px; min-width:100px }
 
 
 <table class="padded-table">
+ <tr><td>[9.] Schmertmann, C., & **Hauer, M.**  "Bayesian estimation of total fertility from a population's age–sex structure ." *Statistical Modelling*. </td><td>[WEB](https://journals.sagepub.com/doi/10.1177/1471082X18801450) / [PDF](./papers/2018-StatisticalModelling.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/1471082X18801450" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
  <tr><td>[8.] Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-level rise risk assessments." *Applied Geography* 91: 10-20. </td><td>[WEB](https://www.sciencedirect.com/science/article/pii/S0143622817309189) / [PDF](./papers/2018-AppliedGeographerHardyHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.apgeog.2017.12.019" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
   <tr><td>[7.] **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change*  7(5): 321-325.  </td><td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
   <tr><td>[6.] Shannon, S. & **Hauer, M.** (2017). "A life table approach to estimating disproportionate minority contact in the juvenile justice system." *Justice Quarterly*.  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/07418825.2017.1315163) / [PDF](./papers/2017-JusticeQuarterlyShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/07418825.2017.1315163" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
@@ -27,8 +29,6 @@ table.padded-table td { padding:6px; min-width:100px }
 ----
 
 ### Working Papers
-
-Schmertmann, C., & **Hauer, M.** "Bayesian estimation of total fertility from a population's age-sex structure." *Statistical Modelling* (Forthcoming). [[PDF]](https://osf.io/preprints/socarxiv/je59v/)
 
 **Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.* Under review *Lancet Planetary Health* [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
 
