@@ -9,8 +9,8 @@ navbar:
       href: research.html
     - text: "Papers"
       href: publications.html
-    #- text: "Your Turn"
-    #  href: your_turn.html
+    - text: "Resources"
+      href: resources.html
 output_dir: "."
 output:
   html_document:

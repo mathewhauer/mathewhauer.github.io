@@ -1,0 +1,10 @@
+---
+title: "Resources"
+#author:  "[Mathew E Hauer](https://github.com/mathewhauer)"
+output:
+  html_document:
+    fig_width: 1
+---
+
+
+[*Startup Resources ->*](./resources/starter_resources.pdf) Here's some simple resources I've found useful. These include how to write scientific articles, how to program in R, academic job guides, etc.

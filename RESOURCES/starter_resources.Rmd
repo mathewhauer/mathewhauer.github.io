@@ -1,0 +1,136 @@
+---
+output: 
+  pdf_document:
+    number_sections: true
+    citation_package: natbib
+    keep_tex: false
+    fig_caption: true
+    latex_engine: pdflatex
+    template: svm-latex-ms.tex
+title: "Simple resources I've found useful"
+
+author:
+- name: Mathew E. Hauer
+  affiliation: Florida State University
+date: "`r format(Sys.time(), '%B %d, %Y')`"
+geometry: margin=1in
+# fontfamily: mathpazo
+fontsize: 12pt
+spacing: single
+# bibliography: LATEX/mybibfile.bib
+# biblio-style: apsr
+# use apsr or nature
+
+header-includes:
+- \usepackage[all]{nowidow}
+- \usepackage{rotating}
+- \usepackage{amsmath}
+- \usepackage{fancyhdr}
+- \usepackage{tabularx}
+- \usepackage{lineno}
+- \pagestyle{fancy}
+- \fancyhead{}
+- \fancyhead[C]{Resources}
+- \usepackage{multirow}
+# - \linenumbers
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+Hopefully you find this document useful. I've tried to include materials that I have found useful through my academic journey. Most of these resources are free and open-source. Some of the books are likely found at the University libraries as well. This is hardly an exhaustive list of resources, but I hope to build on it.
+
+# 1. The Professor Is In: The Essential Guide To Turning Your Ph.D. Into a Job by Kelsky
+This is the only item on this list that you have to purchase (if you want to). You are in grad school, presumably, to get a job. The advice in this book is blunt, honest, and incredibly important for trying to turn your PhD into a job. I used this book as a reference guide later in my grad student career and I will probably continue to personally use this book as a reference guide as I navigate my academic career. If you do not wish to purchase the book, you can borrow my copy.
+
+https://www.amazon.com/Professor-Essential-Guide-Turning-Ph-D/dp/0553419420
+
+# 2. Ten simple rules for structuring papers by Mensh and Kording
+
+In my experience, grad school taught me to write but it didn't teach me to write *well*. This is a fantastic overview of how to structure a scientific paper.
+
+[http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1005619)
+
+
+
+# 3. R for Data Science by Grolemund and Wickham
+Hadley Wickam basically created the Tidyverse. Reproducible research is so much easier to do in R. You could either buy a physical copy of this book through Amazon or use the online version of his textbook. For an introduction to writing Tidy code, it's tough to find a better resource.
+
+[http://r4ds.had.co.nz/](http://r4ds.had.co.nz/)
+
+# 4. The Plain Person’s Guide to Plain Text Social Science by Healy
+There's several very important reasons to start writing papers in Markdown through R. Programming allows our research to be completely replicable. Science is undergoing a crisis of sorts regarding replicability and Kieran Healy makes a very compelling argument for developing good habits of reproducability. There's a lot of information in this document and a multitude of great concepts regarding research.
+
+Note: I do not personally use Emacs.
+
+[https://kieranhealy.org/files/papers/plain-person-text.pdf](https://kieranhealy.org/files/papers/plain-person-text.pdf)
+
+# 5. Data Visualization: A Practical Introduction by Healy
+Kieran follows up the Plaintext Guide with a new book on data visualization. The chapter, *Getting Started*, is particularly useful and clear in articulating *how* to work in RStudio. There's lots of additional coding tips throughout the book, but using Markdown is pretty important for our work as academics. Our output is manuscripts after all.
+
+[http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown](http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown)
+
+# 6. A Quick Introduction to Version Control with Git and GitHub by Elischak et al.
+Version control is the backend that ties everything together. I'm fond of Git and Github, but there are other options for version control. This provides a very short overview version control. The individual commands are less important and they're basically native inside of RStudio. Only when you need to debug Git will you really need the git commands.
+
+[http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
+
+# 7. Software
+You'll need to install several pieces of free, open-source software in order to get up and running.
+
+
+1. R. https://www.r-project.org/
+2. RStudio https://www.rstudio.com/
+3. MikTex https://miktex.org/
+4. Pandoc https://pandoc.org/
+4. Git https://git-scm.com/downloads
+5. A Github account https://github.com/
+
+
+* R is the statistical language that allows all of this to work.
+* RStudio is the GUI that sits on top of R.
+* MikTex is the implementation of LaTex, a typesetting language that makes beautiful PDFs.
+* Pandoc is a conversion software. It converts one software language into another software language. We are writing our code in R, writing our papers in Markdown, and outputting everything to PDF. That is 3 separate languages (R, Markdown, LaTex). Pandoc allows us to write a paper in a single language (Markdown), and easily convert to any other language.
+* Git is the software you'll need to implement version control.
+* Github is the online repository for Git. Think of it like cloud storage.
+
+# 8. Putting it Together
+
+Our general workflow for any project essentially revolves around:
+
+> Input Data (R/RStudio) -> Code and analyze (R/RStudio) -> 
+> Make a Table/Figure/Map (R/RStudio) -> Write a Paper (R/RStudio/MiKTex/Pandoc) -> 
+> Push to Git (R/RStudio/Git) -> Submit to journal
+
+As you can see from the workflow above, we have **vertical integration** for our entire scholarly process; all aspects of the the research process use R and RStudio. We need not use any outside software, except in special cases. This is a highly efficient, and very tight work flow allowing every single aspect of our research process to be reproducible.
+
+# 9. Writing an Abstract
+
+Writing an abstract is difficult. Thankfully, *Nature* put together a brilliant breakdown of how to write an abstract. Here are some related resources.
+
+[Nature's Summary Paragraph](http://s3-service-broker-live-19ea8b98-4d41-4cb4-be4c-d68f4963b7dd.s3.amazonaws.com/uploads/ckeditor/attachments/7808/2c_Summary_para.pdf)
+
+# 10. MIT's Communication Kit
+
+MIT's Communication's Lab put together a great communication "kit" for scientists. It contains easy instructions on writing cover letters, formatting CVs, writing abstracts, personal statements, etc. Each part contains annotated examples in action.
+
+http://mitcommlab.mit.edu/be/use-the-commkit/
+
+# 11. Writing a scientific paper, step by painful step
+
+I've never met Kevin Lafferty, but this is a GREAT resource. Yes, it is written about parasites and is heavily focused on biological sciences, but the general information is pure gold (especially the hook/slant). Maybe one day I'll find the time to convert it to social sciences.
+
+http://trophiccascades.forestry.oregonstate.edu/sites/trophic/files/Lafferty_WritingScientificPaper.pdf
+
+# 12. Scientific presentations: A cheat sheet
+
+This is a really succinct resource put out by *Nature* on how to make a scientific presentation.
+
+http://blogs.nature.com/naturejobs/2017/01/11/scientific-presentations-a-cheat-sheet/
+
+# 13. RESEARCH TOOLS THAT MAKE YOUR LIFE EASIER
+
+Many of the tools listed are included above, but sometimes its nice to get a second opinion. 
+
+http://www.wherethereislight.net/research-tools-that-make-your-life-easier/
