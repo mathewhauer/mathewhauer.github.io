@@ -5,6 +5,18 @@ output:
   html_document:
     fig_width: 1
 ---
+
+```{r, include = FALSE}
+library(tidyverse)
+library(scholar)
+
+id <- "SI0ST5YAAAAJ"
+scholar::get_citation_history(id)
+
+a<-scholar::get_publications(id)
+
+```
+
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <style type="text/css">
 table.padded-table td { padding:6px; min-width:100px }
