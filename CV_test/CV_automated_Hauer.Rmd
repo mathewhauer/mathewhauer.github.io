@@ -1,0 +1,298 @@
+---
+name: Mathew Hauer
+position: "Assistant Professor"
+address: "Department of Sociology,\\tabularnewline Florida State University"
+phone: +1 850 644 7103
+www: mathewhauer.github.io
+email: "mehauer@fsu.edu"
+twitter: thehauer
+github: mathewhauer
+date: "`r format(Sys.time(), '%B %Y')`"
+fontfamily: mathpazo
+output: vitae::hyndman
+pdf-page-size: A4
+header-includes: 
+  - \usepackage{tabularx}
+  # - \usepackage{booktabs}
+  # - \usepackage{longtable}
+  # - \usepackage{array}
+  # - \usepackage{multirow}
+  # - \usepackage{wrapfig}
+  # - \usepackage{float}
+  # - \usepackage{colortbl}
+  # - \usepackage{pdflscape}
+  # - \usepackage{tabu}
+  # - \usepackage{threeparttable}
+  # - \usepackage{threeparttablex}
+  # - \usepackage[normalem]{ulem}
+  # - \usepackage{makecell}
+  # - \usepackage{xcolor}
+
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, warning = FALSE, message = FALSE)
+# options(kableExtra.latex.load_packages = FALSE)
+library(tidyverse)
+library(RefManageR)
+library(vitae)
+library(scholar)
+library(kableExtra)
+library(data.table)
+library(rorcid)
+source("baretable.R")
+```
+
+
+```{r grants, results='asis',  echo = FALSE}
+  grants <- tribble(
+    ~Start, ~End, ~People, ~Title, ~Source,  ~Amount,
+    2019, 2019, "PI", "Projecting the Sociodemographic Characteristics of thoseImpacted by Sea Level Rise in the United States", "FSU FYAP", 20000,
+    2019, 2019, "PI", "Demographic Modelling of Puerto Rico", "Harvard/RAND", 20000,
+    2017, 2020, "Co-I", "Forecast of the Timing, Locations, Sequence and Likeliest Destinations of Populations Displaced by Sea Level Rise and Coastal Extremes", "SESYNC", 0,
+    2016, 2020, "Co-I", "Sustainability in Chesapeake Bay shorescapes: climate change, management decisions, and ecological functions", "NSF Coastal SEES (Total $1,640,152)", 175295,
+    2012, NA, "Co-PI", "Assessment and Application of the Social Vulnerability Index for Coastal Hazards Planning in Glynn County, GA", "Georgia DNR", 67320,
+    2012, NA, "Co-PI", "Understanding social attitudes and prioritizing geo-spatial risks for climate adaptation outreach in coastal Georgia", "Georgia SEAGrant", 126858,
+    2009, NA, "PI", "Projecting Hispanic Economic Outcomes in Georgia, 2000-2030", "Poverty and Economy Grants, UGA", 29000,
+    2009, NA, "PI", "The Production and Evaluation of Estimates of the Total Population Using the Housing Unit Based Method", "US Census Bureau", 29000,
+    2018, NA, "PI", "Population Projections", "Georgia Governor's Office of Planning and Budget", 120519,
+    2016, 2018, "PI", "Georgia Gwinnett College Data Analysis Project", "Georgia Gwinnett College", 242349,
+    2016, 2018, "PI", "Data Research, Analysis, and Modeling Project", "Georgia Board of Regents", 394304,
+    2016, NA, "PI", "Population Projections for Coweta County and cities of Newnan and Seqoia", "Coweta Water and Sewer Authority", 14550,
+    2015, NA, "PI", "Extended Population Projections for Carroll County, GA", "Georgia DNR", 8550,
+    2015, NA, "PI", "Small Area Population Projections for the Bear Creek Reservoir in South Fulton County", "Law Offices of Andrea P. Gray", 8550,
+    2015, NA, "PI", "Community Needs Assessment", "Tallatoona Community Action Partnership", 12400,
+    2015, NA, "PI", "Food Insecurity in 2020 for the Atlanta Food Bank Service Area", "Atlanta Community Food Bank", 2000,
+    2015, 2016, "PI", "Population Projections for the State of Georgia, 2015-2050", "Georgia Governor's Office of Planning and Budget", 100001,
+    2014, NA, "PI", "Enrollment Projections for the University System of Georgia 2014-2024", "Georgia Board of Regents", 30000,
+    2014, NA, "PI", "A Tale of Two Georgias: Rural and Urban Demographic Changes in Georgia", "Georgia Healthcare Foundation", 3500,
+    2014, NA, "PI", "Demography and Higher Education MOOC", "Georgia Board of Regents", 3500,
+    2014, 2016, "PI", "University System of Georgia Data Analysis Demonstration Project", "Georgia Board of Regents", 296000,
+    2014, NA, "PI", "Population Estimates for the Atlanta Regional Commission", "Atlanta Regional Commission", 10000,
+    2013, NA, "PI", "Small Area Population Projections for the Bear Creek Reservoir in South Fulton County", "Law Offices of Tommy Craig", 8500,
+    2013, NA, "PI", "Technical Assistance for Producing Population Projections", "Paulding County Water Systems", 2500,
+    2013, NA, "PI", "Technical Assistance for Producing Population Projections", "Etowah Water  and Sewer Authority", 2500,
+    2013, NA, "PI", "Enrollment Projections for the University System of Georgia 2013-2023", "Georgia Board of Regents", 25000,
+    2012, NA, "PI", "Enrollment Projections for the University System of Georgia 2012-2022", "Georgia Board of Regents", 25000,
+    2011, NA, "PI", "Enrollment Projections for Fayette County School System 2011-2021", "Fayette County School System", 6000,
+    2011, 2012, "PI", "Population Projections for the State of Georgia, 2010-2030", "Georgia Governor's Office of Planning and Budget", 50000,
+    2011, 2012, "PI", "Disproportionate Minority Contact in the Juvenile Justice System of Georgia", "Georgia Governor's Office of Children and Families", 62000,
+    2010, NA, "PI", "Utilizing Census Data for Non-Profits: A Training Manual for Girls, Inc", "Girls Inc", 5000,
+    2009, NA, "PI", "Target Markets for Latino Girls in Georgia", "Girls Inc", 5000
+  )
+sumgrants <- grants %>%
+  pull(Amount) %>%
+  sum(na.rm=TRUE)
+filtamount <- 10000
+```
+
+
+# EDUCATION
+
+```{r degrees,  results='asis',  echo = FALSE}
+tribble(
+  ~Year, ~Degree, ~Discipline , ~Institution,
+  2016, "Ph.D.", "Geography", "University of Georgia",
+  2008, "M.Sc.", "Demography", "Florida State University",
+  2007, "B.Sc.", "Sociology", "Florida State University",
+  2007, "B.Sc.", "Social Sciences", "Florida State University"
+  
+) %>%
+  baretable()
+
+```
+
+# POSITIONS
+
+```{r positions, results='asis',  echo = FALSE}
+
+tribble(
+  ~Start, ~End, ~Position,
+  2008, 2008, "\\textbf{Statistician}, US Census Bureau, Washginton DC",
+  2009, 2009, "\\textbf{Survey Statistician}, US Census Bureau, Atlanta",
+  2009, 2013, "\\textbf{Public Service Assistant}, CVIOG, University of Georgia",
+  2013, 2018, "\\textbf{Public Service Associate}, CVIOG, University of Georgia",
+  2018, NA, "\\textbf{Assistant Professor}, Department of Sociology, Florida State University"
+  ) %>%
+  arrange(-Start, -End) %>%
+  mutate(End = replace_na(End, "")) %>%
+  mutate(Years = paste(Start, "--", End, sep = "")) %>%
+  select(Years, Position) %>%
+   baretable()
+```
+  
+# OTHER POSITIONS
+
+```{r positions2, results='asis',  echo = FALSE}
+  tribble(
+    ~Start, ~End, ~Position,
+    2018, NA, "\\textbf{Research Affiliate}, Center for Demography and Population Health, Florida State University",
+    2011, 2018, "\\textbf{Director}, Applied Demography Program, University of Georgia"
+
+  ) %>%
+    mutate(End = replace_na(End, "")) %>%
+    mutate(Year = paste(Start, "--", End, sep = "")) %>%
+    select(Year, Position) %>%
+     baretable()
+```
+
+# HONORS AND AWARDS
+
+```{r awards, results='asis',  echo = FALSE}
+  awards <- tribble(
+    ~Year, ~Award,
+    2018, "E. Walter Terrie Award, Southern Demographic Association",
+    2017, "Excellence in Research Award, University of Georgia Graduate School",
+    2016, "Excalibur Award, Technology Association of Georgia",
+    2016, "Top Honors, Georgia Technology Authority",
+    2016, "Policy Communications Fellow, Population Reference Bureau",
+    2015, "Top 30 Under 30 Young Alumni, Florida State University",
+    2015, "Best Poster Award, South East Climate Consortium",
+    2014, "E. Walter Terrie Award, Southern Demographic Association",
+
+  ) %>%
+    baretable()
+```
+    
+    
+```{r scholar, include=FALSE,  echo = FALSE}
+    id <- "SI0ST5YAAAAJ"
+
+    a<-scholar::get_publications(id)
+    b <- scholar::get_profile(id)
+    pubs <- filter(a, !number == "") %>%
+      arrange(year) %>%
+      dplyr::select(-cid) %>%
+      mutate(bibtype = "article",
+             author = paste0(author),
+             journaltitle = paste0(journal),
+             title = paste0(title),
+             key = paste0(pubid, year)
+             )
+    rownames(pubs) <- pubs[,length(pubs)]
+      pubs <- pubs %>%dplyr::select(-journal, -pubid, -key)
+
+#       bib <- ReadGS(scholar.id =  id, sort.by.date = TRUE,
+# limit = nrow(a)-1)
+# 
+# bib[12] <- list(c(title = "Bayesian estimation of total fertility from a population's age-sex structure"))
+
+# Make sure you set your system environment to your Oauth token.  https://www.pauloldham.net/introduction-to-orcid-with-rorcid/
+
+orc <- "0000-0001-9390-5308"
+
+z<-orcid_works(orc)
+pubs2<-rbindlist(z$`0000-0001-9390-5308`$group$`external-ids.external-id`)  
+
+zzz <- GetBibEntryWithDOI(pubs2$`external-id-value`)
+
+# z <- as.data.frame(rjc.bib)
+# 
+#   bib <- as.BibEntry(pubs)
+#       bib <- list(c(bibtype = "article", key = "mclean2014a", title = "My New Article",
+# author = "Mathew W. McLean", journaltitle = "The Journal", date = "2014-01"),
+# c(bibtype = "article", key = "mclean2014b", title = "Newer Article",
+# author = "Mathew W. McLean", journaltitle = "The Journal", date = "2014-02"))
+#       bib<- as.BibEntry(bib)
+    WriteBib(zzz, file = "references.bib")
+
+```
+
+<!-- # CURRENT MEMBERSHIPS -->
+
+<!-- * Member, Population Association of America -->
+<!-- * Member, Southern Demographic Association -->
+<!-- * Member, American Sociological Association -->
+
+<!-- # TECHNICAL COMMITTEES AND PROFESSIONAL SERVICE -->
+
+<!-- * Member, Government and Political Affairs Committee, Population Association of America. -->
+<!-- * Member, Committee on Applied Demography, Population Association of America. -->
+
+# RESEARCH
+
+* Since `r min(pubs$year)` I have authored `r nrow(pubs2)` papers on demographic and sociological topics totaling `r b$total_cites` citations for an h-index of `r b$h_index`.
+* Pre-prints, working papers, and replication repositories can be found on Open Science Framework at https://osf.io/wdh3w/.
+* My research focuses on climate change and demographic processes to better understand the current and projected impacts of climate change on human society.
+
+
+
+# Publications
+```{r research-papers,  echo = FALSE}
+
+bibliography_entries("references.bib", 
+                     sorting = "ydnt"
+                     ) %>%
+   filter(bibtype == "Article")
+
+```
+
+## Commissioned Reports
+\begin{tabularx}{\linewidth}{lX}
+1.    & Hauer, M., and Hensley, E. (2016). A New Face of Georgia: An analysis of the state's population projections through 2050. \textit{Governor's Office of Planning and Budget}.\\
+2.   & Hauer, M., Byars, J., Wilson, G., (2015). \& Pizarek, M. Transfer Student Report: Demonstrating innovative ways to analyze             student transfer data to answer policy questions. \textit{Board of Regents of the University System of Georgia.}\\
+3.      & Hauer, M., Lynde, H., Byars, J., Wilson, G., Coyne, J., \& Tanner D. (2015). First Time Freshman Report: USG market share and     the Georgia high school to USG pipeline. \textit{Board of Regents of the University System of Georgia.}\\
+4.       &  Hauer, M., Lynde, H., Byars, J., Wilson, G., Coyne, J., \& Tanner, D. (2015). Student progression report: Enrollment patterns     that lead to graduation. \textit{Board of Regents of the University System of Georgia.}\\
+5.       & Hauer, M., Lynde, H., Byars, J. Wilson, G., Coyne, J., \& Tanner, D. (2015). University System of Georgia Student Group         Profiles. \textit{Board of Regents of the University System of Georgia.}\\
+6.       &  Shannon, J. and Hauer, M. (2015). Projections of food insecurity in the metro Atlanta area. \textit{Atlanta Community Food     Bank.}\\
+7.     &  Evans, J., Hauer, M., Hardy, D., \& Pippin, S. (2014). Assessing social vulnerability using SoVI-Lite: A demonstration study             at Glynn County, GA. \textit{Carl Vinson Institute of Government.}\\
+8.       &  Evans, J., Pippin, S., Hardy, D., \& Hauer, M. (2014). Social vulnerability and local hazard mitigation planning: Application     and evaluation of SoVI-Lite approach for Glynn County, Georgia. \textit{Carl Vinson Institute of Government.}\\
+9.       &  Hauer, M., A tale of two Georgias: Rural and urban demographic changes in Georgia. \textit{Georgia Healthcare            Foundation.}\\
+10.    &  Hauer, M. and Vaida, G. (2012). Disproportionate minority contact assessment. \textit{Governor's Office of Children and                  Families.}\\
+11.   &  Tinsley, K. and Hauer, M. (2011). Altama Community Transformation (ACT) district housing assessment. \textit{Glynn County,               GA.}\\
+12.    &  Clarke, W., Brown, W., \& Hauer, M. (2010). The motor use fuel tax in Georgia: Collection efficiency, trends, and                        projections. \textit{MARTA.}\\
+13.       &  Clarke, W., Brown, W., Hauer, M., \& Meyer, M. (2010). Metropolitan Atlanta Rapid Transit Authority revenue and expense         forecast evaluation 2011-2016. \textit{MARTA.}\\
+14.      & Hauer, M. (2010). Utilizing Census data for non-profits: A training manual for Girls, Inc. \textit{Girls, Inc.}\\
+15.    &  Simmons, M. and Hauer, M. (2008). An analysis and critique of Tallahassee and Leon County transportation funding by                      residential project size. \textit{CNL Real Estate and Development Inc.}\\
+16.    &  Simmons, M. and Hauer, M. (2007). Health and the built environment. \textit{Florida Legislature.}\\
+\end{tabularx}
+
+# GRANTS
+
+I have acquired (in most cases jointly) about $`r sprintf("%2.1f", sumgrants/1e6)` million in external research grants since 2009. External research grants over $`r prettyNum(filtamount, big.mark=",")` are listed below.\vspace*{0.2cm}
+
+```{r grantstable,  echo = FALSE}
+grants <- grants %>%
+  filter(Amount > filtamount) %>%
+    mutate(
+    Time = paste0(Start, ifelse(is.na(End),"",paste0("--",End))),
+    # Entry = paste(People, ". ``", Title, "''. ",
+    #               "\\emph{Funding from ", Source,"}",
+    #               sep=""),
+    Entry = paste(People, ". ``", Title, ".''", sep = ""),
+    Amount = paste("$",prettyNum(Amount, big.mark=","), sep="")
+  ) %>%
+  arrange(desc(Time), desc(Amount)) %>%
+  select(Time, Entry, Source, Amount)
+  # baretable(align='llp{13.3cm}r',
+  #           hline.after=c(0,NROW(.)),
+  #           size="\\fontsize{10}{16}",
+  #           add.to.row=list(
+  #             pos=as.list(seq(NROW(.))),
+  #             command=rep("\\\\[-0.2cm]",NROW(.))))
+
+kable(grants, "latex", booktabs = T, col.names = NULL) %>%
+  kable_styling(latex_options = c("repeat_header","striped")) %>%
+  column_spec(2, width = "28em") %>%
+  column_spec(3, italic=T, width = "10em")
+
+```
+
+# TEACHING
+```{r teaching, results='asis',  echo = FALSE}
+  teaching <- tribble(
+    ~Year, ~Coursename, ~Coursenum, ~Univ, ~Eval,
+    2015, "Family Demography and Public Policy", "HACE 4400/6400", "University of Georgia", "4.98/5.0",
+    2018, "Population Data", "SYD 5133", "Florida State University", "4.45/5.0",
+    2019, "Population and Society", "SYD 3020", "Florida State University", "-"
+  ) %>%
+  arrange(-Year) %>%
+  dplyr::select(-Eval) %>%
+    baretable()
+```
+
+# INVITED PRESENTATIONS
+Drexel University (Sept 2019), Penn State University (May 2019), Environmental Grantmakers Alliance (Oct 2018), University of Miami (Feb 2018), Brown University (Dec 2017), Florida State University (Dec 2017), University of Texas at San Antonio (Dec 2017), Florida State University (Oct 2017), NOAA (Jul 2017), Texas A&M University (Nov 2016), University of Georgia (Mar 2016), Board of Regents of the University System of Georgia (Jan 2016), University of Georgia (Feb 2016), College of William \& Mary (Apr 2015), Florida State University (Sep 2013), Testimony at the Georgia Legislature (Jun 2012), Federal Reserve Bank of Atlanta (Feb 2012)
+
+
+
