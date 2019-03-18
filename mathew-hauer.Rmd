@@ -36,7 +36,7 @@ Put in your css file or directly in rmarkdown--->
 
 
 
-[A copy of my CV can be found here](../CV/Hauer_CV.pdf)
+[A copy of my CV can be found here](../CV_test/CV_automated_Hauer.pdf)
 
 Dr. Mathew Hauer is an Assistant Professor in the Department of Sociology and an Affiliate of the Center for Demography and Population Health at Florida State University. He obtained his Ph.D. in Geography at the University of Georgia. Prior to arriving at FSU, Dr. Hauer spent nearly a decade directing the Applied Demography Program at the University of Georgia.
 
