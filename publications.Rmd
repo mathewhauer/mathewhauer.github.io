@@ -55,6 +55,8 @@ table.padded-table td { padding:6px; min-width:100px }
 
 <table class="padded-table">
 
+ <tr><td>[13.]  **Hauer, M.** & Byars, J. (2020)  "IRS County-to-County Migration Data, 1990-2010." *Demogrpahic Researc*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
  <tr><td>[12.]  **Hauer, M.** (2019)  "Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway." *Scientific Data*. </td><td>[WEB](https://www.nature.com/articles/sdata20195) / [PDF](./papers/2019-SciDataHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/sdata.2019.5" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
  <tr><td>[11.]  **Hauer, M.** (2019)  "Sociology, Demography, and Economics Presidential Ages and Sex over Time." *Socius*. </td><td>[WEB](https://journals.sagepub.com/doi/abs/10.1177/2378023118825221) / [PDF](./papers/2019-SociusHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/2378023118825221" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
@@ -81,8 +83,6 @@ table.padded-table td { padding:6px; min-width:100px }
 
 **Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.*  [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
 
-**Hauer, M.**, IRS County-to-County Migration Data, 1990-2010  [[PDF]](https://osf.io/preprints/socarxiv/zmp4t/)
-    
 **Hauer, M.**, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.[[PDF]](https://osf.io/preprints/socarxiv/76y5z/)
     
 **Hauer, M.** & Schmertmann, C. Population pyramids yield accurate estimates of total fertility rates. [[PDF]](https://osf.io/preprints/socarxiv/2f3v6/)

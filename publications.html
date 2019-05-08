@@ -70,9 +70,7 @@ h6 {
 
 <link rel="stylesheet" href="fontawesome-free-5.0.2\web-fonts-with-css\css\fontawesome.css" type="text/css" />
 
-</head>
 
-<body>
 
 <style type = "text/css">
 .main-container {
@@ -97,6 +95,9 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
+summary {
+  display: list-item;
+}
 </style>
 
 
@@ -111,7 +112,6 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
-
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -131,6 +131,43 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
+}
+.dropdown-submenu {
+  position: relative;
+}
+.dropdown-submenu>.dropdown-menu {
+  top: 0;
+  left: 100%;
+  margin-top: -6px;
+  margin-left: -1px;
+  border-radius: 0 6px 6px 6px;
+}
+.dropdown-submenu:hover>.dropdown-menu {
+  display: block;
+}
+.dropdown-submenu>a:after {
+  display: block;
+  content: " ";
+  float: right;
+  width: 0;
+  height: 0;
+  border-color: transparent;
+  border-style: solid;
+  border-width: 5px 0 5px 5px;
+  border-left-color: #cccccc;
+  margin-top: 5px;
+  margin-right: -10px;
+}
+.dropdown-submenu:hover>a:after {
+  border-left-color: #ffffff;
+}
+.dropdown-submenu.pull-left {
+  float: none;
+}
+.dropdown-submenu.pull-left>.dropdown-menu {
+  left: -100%;
+  margin-left: 10px;
+  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -152,19 +189,85 @@ $(document).ready(function () {
 });
 </script>
 
-
-<div class="container-fluid main-container">
-
 <!-- tabsets -->
+
+<style type="text/css">
+.tabset-dropdown > .nav-tabs {
+  display: inline-table;
+  max-height: 500px;
+  min-height: 44px;
+  overflow-y: auto;
+  background: white;
+  border: 1px solid #ddd;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs > li.active:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
+  content: "&#xe258;";
+  border: none;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
+  content: "";
+  font-family: 'Glyphicons Halflings';
+  display: inline-block;
+  padding: 10px;
+  border-right: 1px solid #ddd;
+}
+
+.tabset-dropdown > .nav-tabs > li.active {
+  display: block;
+}
+
+.tabset-dropdown > .nav-tabs > li > a,
+.tabset-dropdown > .nav-tabs > li > a:focus,
+.tabset-dropdown > .nav-tabs > li > a:hover {
+  border: none;
+  display: inline-block;
+  border-radius: 4px;
+}
+
+.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
+  display: block;
+  float: none;
+}
+
+.tabset-dropdown > .nav-tabs > li {
+  display: none;
+}
+</style>
+
 <script>
 $(document).ready(function () {
   window.buildTabsets("TOC");
+});
+
+$(document).ready(function () {
+  $('.tabset-dropdown > .nav-tabs > li').click(function () {
+    $(this).parent().toggleClass('nav-tabs-open')
+  });
 });
 </script>
 
 <!-- code folding -->
 
 
+
+
+</head>
+
+<body>
+
+
+<div class="container-fluid main-container">
 
 
 
@@ -215,6 +318,19 @@ $(document).ready(function () {
 table.padded-table td { padding:6px; min-width:100px }
 </style>
 <table class="padded-table">
+<tr>
+<td>
+[13.] <strong>Hauer, M.</strong> &amp; Byars, J. (2020) “IRS County-to-County Migration Data, 1990-2010.” <em>Demogrpahic Researc</em>.
+</td>
+<td>
+<a href="https://www.demographic-research.org/volumes/vol40/40/default.htm">WEB</a> / <a href="./papers/2020-DemResHauer.pdf">PDF</a>
+</td>
+<td>
+<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true">
+
+</div>
+</td>
+</tr>
 <tr>
 <td>
 [12.] <strong>Hauer, M.</strong> (2019) “Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway.” <em>Scientific Data</em>.
@@ -376,7 +492,6 @@ table.padded-table td { padding:6px; min-width:100px }
 <div id="working-papers" class="section level3">
 <h3>Working Papers</h3>
 <p><strong>Hauer, M.</strong> &amp; Santos, A. <em>Climate change could reduce European life expectancy.</em> <a href="https://osf.io/preprints/socarxiv/ngtxr">[PDF]</a></p>
-<p><strong>Hauer, M.</strong>, IRS County-to-County Migration Data, 1990-2010 <a href="https://osf.io/preprints/socarxiv/zmp4t/">[PDF]</a></p>
 <p><strong>Hauer, M.</strong>, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.<a href="https://osf.io/preprints/socarxiv/76y5z/">[PDF]</a></p>
 <p><strong>Hauer, M.</strong> &amp; Schmertmann, C. Population pyramids yield accurate estimates of total fertility rates. <a href="https://osf.io/preprints/socarxiv/2f3v6/">[PDF]</a></p>
 <hr />
