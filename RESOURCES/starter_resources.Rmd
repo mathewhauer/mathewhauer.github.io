@@ -72,6 +72,7 @@ Kieran follows up the Plaintext Guide with a new book on data visualization. The
 [http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown](http://socviz.co/gettingstarted.html#work-in-plain-text-using-rmarkdown)
 
 # 6. A Quick Introduction to Version Control with Git and GitHub by Elischak et al.
+
 Version control is the backend that ties everything together. I'm fond of Git and Github, but there are other options for version control. This provides a very short overview version control. The individual commands are less important and they're basically native inside of RStudio. Only when you need to debug Git will you really need the git commands.
 
 [http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668](http://journals.plos.org/ploscompbiol/article?id=10.1371/journal.pcbi.1004668)
@@ -82,7 +83,7 @@ You'll need to install several pieces of free, open-source software in order to 
 
 1. R. https://www.r-project.org/
 2. RStudio https://www.rstudio.com/
-3. MikTex https://miktex.org/
+3. TinyTeX https://yihui.name/tinytex/
 4. Pandoc https://pandoc.org/
 4. Git https://git-scm.com/downloads
 5. A Github account https://github.com/
@@ -90,7 +91,7 @@ You'll need to install several pieces of free, open-source software in order to 
 
 * R is the statistical language that allows all of this to work.
 * RStudio is the GUI that sits on top of R.
-* MikTex is the implementation of LaTex, a typesetting language that makes beautiful PDFs.
+* TinyTeX is a lightweight implementation of LaTex, a typesetting language that makes beautiful PDFs.
 * Pandoc is a conversion software. It converts one software language into another software language. We are writing our code in R, writing our papers in Markdown, and outputting everything to PDF. That is 3 separate languages (R, Markdown, LaTex). Pandoc allows us to write a paper in a single language (Markdown), and easily convert to any other language.
 * Git is the software you'll need to implement version control.
 * Github is the online repository for Git. Think of it like cloud storage.
@@ -134,3 +135,15 @@ http://blogs.nature.com/naturejobs/2017/01/11/scientific-presentations-a-cheat-s
 Many of the tools listed are included above, but sometimes its nice to get a second opinion. 
 
 http://www.wherethereislight.net/research-tools-that-make-your-life-easier/
+
+# 14. E-mail like a boss
+
+Print this out and put it next to your computer!
+
+https://twitter.com/AJ_Boston/status/1131230715197181952
+
+# 15. Neil Gaiman on Imposter Syndrome
+
+I still struggle with imposter syndrome and so I think about this anectdote from Neil Gaiman pretty frequently.
+
+https://twitter.com/AlanBaxter/status/863259258443374593
