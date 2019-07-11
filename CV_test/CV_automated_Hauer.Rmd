@@ -40,6 +40,7 @@ library(scholar)
 library(kableExtra)
 library(data.table)
 library(rorcid)
+library(bib2df)
 source("baretable.R")
 ```
 
@@ -184,7 +185,10 @@ orc <- "0000-0001-9390-5308"
 z<-orcid_works(orc)
 pubs2<-rbindlist(z$`0000-0001-9390-5308`$group$`external-ids.external-id`)  
 
-zzz <- GetBibEntryWithDOI(pubs2$`external-id-value`)
+zzz <- GetBibEntryWithDOI(pubs2$`external-id-value`) 
+
+
+
 
 # z <- as.data.frame(rjc.bib)
 # 
@@ -220,10 +224,20 @@ zzz <- GetBibEntryWithDOI(pubs2$`external-id-value`)
 # Publications
 ```{r research-papers,  echo = FALSE}
 
+# a<- bib2df("references.bib") %>%
+#   mutate(TITLE = gsub("[<].*[>]", "-", TITLE),
+#          TITLE = gsub("IRS}", "{IRS}", TITLE),
+#          PUBLISHER = gsub("SAGE}", "{SAGE}", PUBLISHER),
+#          # PUBLISHER = gsub("{LLC", "{LLC}", PUBLISHER),
+#          PUBLISHER = gsub("{BV)", "{BV}", PUBLISHER))
+
+# df2bib(a, "references.bib")
+
 bibliography_entries("references.bib", 
                      sorting = "ydnt"
                      ) %>%
-   filter(bibtype == "Article")
+   filter(bibtype == "Article") 
+
 
 ```
 
@@ -292,7 +306,7 @@ kable(grants, "latex", booktabs = T, col.names = NULL) %>%
 ```
 
 # INVITED PRESENTATIONS
-Drexel University (Sept 2019), Penn State University (May 2019), Environmental Grantmakers Alliance (Oct 2018), University of Miami (Feb 2018), Brown University (Dec 2017), Florida State University (Dec 2017), University of Texas at San Antonio (Dec 2017), Florida State University (Oct 2017), NOAA (Jul 2017), Texas A&M University (Nov 2016), University of Georgia (Mar 2016), Board of Regents of the University System of Georgia (Jan 2016), University of Georgia (Feb 2016), College of William \& Mary (Apr 2015), Florida State University (Sep 2013), Testimony at the Georgia Legislature (Jun 2012), Federal Reserve Bank of Atlanta (Feb 2012)
+University of South Florida (Mar 2020), University of Wisconsin-Madison (Oct 2019), Drexel University (Sept 2019), City of Ann Arbor (July 2019), Penn State University (May 2019), Environmental Grantmakers Alliance (Oct 2018), University of Miami (Feb 2018), Brown University (Dec 2017), Florida State University (Dec 2017), University of Texas at San Antonio (Dec 2017), Florida State University (Oct 2017), NOAA (Jul 2017), Texas A&M University (Nov 2016), University of Georgia (Mar 2016), Board of Regents of the University System of Georgia (Jan 2016), University of Georgia (Feb 2016), College of William \& Mary (Apr 2015), Florida State University (Sep 2013), Testimony at the Georgia Legislature (Jun 2012), Federal Reserve Bank of Atlanta (Feb 2012)
 
 
 
