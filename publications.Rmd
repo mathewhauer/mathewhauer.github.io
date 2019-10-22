@@ -55,7 +55,18 @@ table.padded-table td { padding:6px; min-width:100px }
 
 <table class="padded-table">
 
- <tr><td>[13.]  **Hauer, M.** & Byars, J. (2020)  "IRS County-to-County Migration Data, 1990-2010." *Demogrpahic Researc*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+ <tr><td>[17.]  **Hauer, M.**, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” Forthcoming in *Nature Reviews Earth & Environment*. </td><td>[WEB]() / [PDF]()</td><td></td></tr>
+
+ <tr><td>[16.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/76y5z/) / [PDF]()</td><td></td></tr>
+
+ <tr><td>[15.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/2f3v6/) / [PDF]()</td><td></td></tr>
+
+<tr><td>[14.]  Wrathall D., Mueller V., Clark P., Bell A., Oppenheimer M., **Hauer M.**, Kulp S, Gilmore E.,
+Adams H., Kopp R., Abel K., Call M., Chen J., deSherbinin A., Fussell E., Hay C., Jones B.,
+Magliocca N., Marino E., Slangen A., and Warner K. (2020) "Sea-level change, human migration and
+the intervening influence of policy". Forthcoming in *Nature Climate Change*. </td><td>[WEB]() / [PDF]()</td><td></td></tr>
+
+ <tr><td>[13.]  **Hauer, M.** & Byars, J. (2019)  "IRS County-to-County Migration Data, 1990-2010." *Demographic Research*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
  <tr><td>[12.]  **Hauer, M.** (2019)  "Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway." *Scientific Data*. </td><td>[WEB](https://www.nature.com/articles/sdata20195) / [PDF](./papers/2019-SciDataHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/sdata.2019.5" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
