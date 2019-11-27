@@ -63,8 +63,8 @@ table.padded-table td { padding:6px; min-width:100px }
 
 <tr><td>[14.]  Wrathall D., Mueller V., Clark P., Bell A., Oppenheimer M., **Hauer M.**, Kulp S, Gilmore E.,
 Adams H., Kopp R., Abel K., Call M., Chen J., deSherbinin A., Fussell E., Hay C., Jones B.,
-Magliocca N., Marino E., Slangen A., and Warner K. (2020) "Sea-level change, human migration and
-the intervening influence of policy". Forthcoming in *Nature Climate Change*. </td><td>[WEB]() / [PDF]()</td><td></td></tr>
+Magliocca N., Marino E., Slangen A., and Warner K. (2020) "Meeting the looming policy challenge of
+sea-level change and human migration"*Nature Climate Change*. </td><td>[WEB](https://www.nature.com/articles/s41558-019-0640-4) / [PDF](./papers/2019-NCLIMWrathall.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41558-019-0640-4" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
  <tr><td>[13.]  **Hauer, M.** & Byars, J. (2019)  "IRS County-to-County Migration Data, 1990-2010." *Demographic Research*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
