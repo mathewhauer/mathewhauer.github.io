@@ -55,16 +55,18 @@ table.padded-table td { padding:6px; min-width:100px }
 
 <table class="padded-table">
 
- <tr><td>[17.]  **Hauer, M.**, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” Forthcoming in *Nature Reviews Earth & Environment*. </td><td>[WEB]() / [PDF]()</td><td></td></tr>
 
- <tr><td>[16.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/76y5z/) / [PDF]()</td><td></td></tr>
 
- <tr><td>[15.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/2f3v6/) / [PDF]()</td><td></td></tr>
+ <tr><td>[17.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/76y5z/) / [PDF]()</td><td></td></tr>
 
+ <tr><td>[16.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/2f3v6/) / [PDF]()</td><td></td></tr>
+ 
+ <tr><td>[15.]  **Hauer, M.**, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” *Nature Reviews Earth & Environment*. </td><td>[WEB](https://www.nature.com/articles/s43017-019-0002-9) / [PDF](./papers/2019-NREEHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s43017-019-0002-9" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+ 
 <tr><td>[14.]  Wrathall D., Mueller V., Clark P., Bell A., Oppenheimer M., **Hauer M.**, Kulp S, Gilmore E.,
 Adams H., Kopp R., Abel K., Call M., Chen J., deSherbinin A., Fussell E., Hay C., Jones B.,
 Magliocca N., Marino E., Slangen A., and Warner K. (2020) "Meeting the looming policy challenge of
-sea-level change and human migration"*Nature Climate Change*. </td><td>[WEB](https://www.nature.com/articles/s41558-019-0640-4) / [PDF](./papers/2019-NCLIMWrathall.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41558-019-0640-4" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+sea-level change and human migration" *Nature Climate Change*. </td><td>[WEB](https://www.nature.com/articles/s41558-019-0640-4) / [PDF](./papers/2019-NCLIMWrathall.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41558-019-0640-4" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
  <tr><td>[13.]  **Hauer, M.** & Byars, J. (2019)  "IRS County-to-County Migration Data, 1990-2010." *Demographic Research*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
