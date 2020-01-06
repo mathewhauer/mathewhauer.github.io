@@ -1,0 +1,14 @@
+---
+layout: page
+title: "Mathew E. Hauer"
+comments: false
+description: Mathew E. Hauer, PhD, is a demographer and sociologist specializing in population projections, climate change, and human migration.
+---
+
+I am a demographer and sociologist working on the demographic consequences of climate change. My research primarily focuses on population projections, sea-level rise, and human migration.
+
+I am currently an Assistant Professor in the [Department of Sociology](https://coss.fsu.edu/sociology/mhauer)  and a research affiliate in the [Center for Demography and Population Health](http://popcenter.fsu.edu/) at Florida State University. From 2009 to 2018, I was a Public Service Assistant and Associate at the [Carl Vinson Institute of Government](https://cviog.uga.edu/) at the University of Georgia where I directed the [Applied Demography Program](https://cviog.uga.edu/services-and-research/applied-demography/).
+
+Prior to that, I was Supervisory Survey Statistician with the U.S. Census Bureau in Atlanta and a researcher with the Atlanta Regional Commission. I recieved my PhD from the [Department of Geography](https://geography.uga.edu/) at the University of Georgia. My PhD dissertation modelled the migration destinations of potential displaced persons due to sea level rise in the United States. I grew up in Florida and I recieved by BS and MS at Florida State University in Sociology and Demography.
+
+

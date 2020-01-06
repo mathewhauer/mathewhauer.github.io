@@ -1,23 +1,17 @@
-name: "R Markdown Websites Tutorial"
-
+name: "my-website"
 navbar:
-  title: "HOME"
+  title: "Mathew E. Hauer"
   left:
-    - text: "About"
-      href: mathew-hauer.html
+    - text: "CV"
+      href: Hauer_CV.pdf
     - text: "Research"
       href: research.html
-    - text: "Papers"
-      href: publications.html
-    - text: "Resources"
-      href: resources.html
-output_dir: "."
-output:
-  html_document:
-    theme: yeti
-    highlight: textmate
-    css: fontawesome-free-5.0.2/web-fonts-with-css/css/fontawesome.css    
-    self_contained: no
-    urlcolor: blue
-    include:
-      after_body: _footer.html
+  right:
+    - icon: fa-envelope
+      href: mailto:mehauer@fsu.edu
+    - icon: fa-google
+      href: https://scholar.google.com/citations?user=SI0ST5YAAAAJ&hl=en
+    - icon: fa-github
+      href: https://github.com/mathewhauer
+    - icon: fa-twitter
+      href: https://twitter.com/thehauer

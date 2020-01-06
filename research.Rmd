@@ -1,109 +1,62 @@
 ---
-title: "Research Themes"
-#author:  "[Mathew E Hauer](https://github.com/mathewhauer)"
-output:
-  html_document:
-    fig_width: 1
+title: "Research"
 ---
+
+This page lists some of my academic research interests, working papers, and past publications. You can also view PDFs of my [full academic CV](Hauer_CV.pdf).
+
+### Working Papers
+
+**Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.*  [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
+
+**Hauer, M.**, Saunders, RK, & Shtob, D. *The Path of Least Resistance: Projections of Social Inequalities as a Result of Climate Change in the United States.* [[PDF]](https://osf.io/preprints/socarxiv/7jtrn/)
+
+Keenan, J. M., & **Hauer, M.** *Resilience for Whom? Demographic Change and the Redevelopment of the Built Environment in Puerto Rico.*
+
+Landon, C., Lyles, R., Scovronick, N., Abadi, A., Bilotta, R., **Hauer, M.**, Bell, J., & Gribble, M. *Mixed-effects negative binomial regression with interval censoring: a simulation study  and application to aridity and all-cause mortality among black South Africans over 1997-2013.* 
+
+### Publications
+
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <style type="text/css">
 table.padded-table td { padding:6px; min-width:100px }
 </style>
 
-<style type="text/css">
-a.imagelink {
-    float: right;
-    margin-right: 10px;
-    margin-bottom: 10px;
-}
-</style>
-
-
-My research focuses on the intersection between climate change and demographic processes to better understand the current and projected impacts of climate change on human society. My long-term research goal is to holistically describe these impacts. Unfortunately, many demographic techniques and methods are underdeveloped to properly quantify climate impacts. My research team routinely develops new techniques and methods and harnesses these developments to quantify climate impacts on human populations.
-<center>
-
-![](./images/researchthemes.png)
-
-</center>
-
-**1) Demographic Projections and their Applications**
-<div><a href="#" class="imagelink"><IMG SRC=./images/countymaps2.png ALIGN=”right” width= "250" class="floatleft"></a> 
-
-Climate change impacts are occurring all of the world however many impacts are still projected to be in the future. Without properly situating future climate change impacts with future populations, we risk significantly misrepresenting these impacts by coupling a dynamic environment (climate change) with a static society (current populations). Recent calls to couple sociodemographic futures with biophysical futures (ie climate change) strongly emphasize this point  ([*Lutz and Muttarak 2017*](https://www.nature.com/articles/nclimate3222)). Societies are sure to change and it is imperative to properly model this change. My primary research aims to develop multi-dimensional predictive models of sociodemographic change to create demographic futures that we will then couple with climate models to assess future climate impacts. The development of these demographic projections become the engine that powers the subsequent climate impact work.
-
-My demographic projections incorporate varying scales depending on the climate change impact. Sea level rise unfolds along highly localized scales necessitating the development of small-area demographic projections (ie Census Tract and Block Group geographies). Drought, heat, and wildfire impacts unfold along much broader scales necessitating the development of county-level demographic projections. I harmonize the demographic projections across scale allowing us to seamlessly analyze climate impacts between scales.
-
-*Sample Papers:*
 
 <table class="padded-table">
-<tr><td> **Hauer, M.** "Population projections for all U.S. counties by age, sex, and race controlled to the Shared Socioeconomic Pathways" </td>
-<td> [Preprint](https://osf.io/preprints/socarxiv/ue4hs/)</td>
-<td></td></tr>
- <tr><td> Hardy, R. D., & **Hauer, M.**  "Social vulnerability projections improve sea-level rise risk assessments." *Applied Geography* 91: 10-20. </td>
- <td>[WEB](https://www.sciencedirect.com/science/article/pii/S0143622817309189) / [PDF](./papers/2018-AppliedGeographerHardyHauer.pdf)</td>
- <td><div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.apgeog.2017.12.019" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
-  <tr><td> **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change*  7(5): 321-325.  </td>
-  <td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td>
-  <td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
-  <tr><td>Shannon, J., **Hauer, M.**, Shannon, S., and Weaver, A. (2017). "The Suburbanization of Food Insecurity: An Analysis of Projected     Trends in the Atlanta Metropolitan Area." *Professional Geographer*.</td>
-  <td>[WEB](http://www.tandfonline.com/doi/full/10.1080/00330124.2017.1325751) / [PDF](./papers/2017-ProGeographerShannonHauer.pdf)</td>
-  <td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/00330124.2017.1325751" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>  
-   <tr><td> **Hauer, M.**, Evans, J., and Mishra, D. (2016). "Millions projected to be at risk from sea-level rise in the continental United States.'' *Nature Climate Change* 6(7): 691-695. </td>
-   <td> [WEB](http://www.nature.com/nclimate/journal/v6/n7/full/nclimate2961.html) / [PDF](./papers/2016-NCLIMHauer.pdf)</td>
-   <td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate2961" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>  
-   <tr><td> **Hauer, M.**, Evans, J., and Alexander, C. (2015). "Sea-level rise and sub-county population projections in coastal Georgia.''  *Population and Environment* 37(1): 44-62.</td> <td> [WEB](http://link.springer.com/article/10.1007/s11111-015-0233-8) / [PDF](./papers/2015-POENHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s11111-015-0233-8" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
 
-</table> 
 
-**2) Climate change impacts on human migration**
-<a href="#" class="imagelink"><IMG SRC=./images/nclimate3271-f3.jpg ALIGN=”right” width= "250" class="floatleft"></a> 
 
-The effects of global climate change on human society is one of the most pressing issues of the 21st century. At present, my migration research focuses on sea level rise, one of the forefronts of climate change. We take a migration systems theory approach to ask a fundamental questions about environmental migration. A systems approach posits that when one place experiences a change, the effect is manifested throughout the system. In order to better understand the drivers of human migration in response to environmental change we utilize historic analogs, recent major environmental events that spur migration, and quantitative forecasting to understand, model, and project human migratory responses to climate change without a migration systems framework. By exploring historical migration events and modeling future environmental migration, my research goes beyond simply describing empirical drivers of human migration by creating migration simulations describing how climate change will alter human settlement patterns.
+ <tr><td>[17.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/76y5z/) / [PDF]()</td><td></td></tr>
 
-Though my research currently focuses primarily on sea level rise, we are open to broader examinations of climate change and human migration. Will our coastal cities be abandoned as sea levels overtake them? Where will these potentially millions of people go? Can we turn to historic analogs to understand how people might adapt to sea level rise? What do we really know about the scale, magnitude, and geographies of the populations vulnerable to sea level rise over the coming century and what lessons can we learn from that knowledge? These are some of the questions we seek to answer.
-
-*Sample Papers:*
-
-<table class="padded-table">
+ <tr><td>[16.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/2f3v6/) / [PDF]()</td><td></td></tr>
  
-  <tr><td> **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change*  7(5): 321-325.  </td><td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
- <tr><td>  **Hauer, M.**, Mishra, D., Pippin, J.S., Hardy, D. No landward retreat: Confronting 80 years of sea level rise in Louisiana. </td>
- <td> [Preprint](https://osf.io/preprints/socarxiv/n7pt5/) </td>
-<td></td></tr>
-<tr><td> **Hauer, M.**, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.</td>
-<td></td>
-<td></td></tr>
-</table> 
-
-**3) Climate change impacts on human mortality**
-<a href="#" class="imagelink"><IMG SRC=./images/e0.png ALIGN=”right” width= "250" class="floatleft"></a> 
-
-Climate change’s implications on humanity go far beyond estimates of economic damages, estimates of displacement, or human conflict but have the potential to lead to the loss of human life. Scholars have long estimated the mortality risks associated with climate change and typically use excess or extra mortality. It is my goal to describe the impact of climate change on human mortality through a demographic lens by using life expectancy at birth rather than excess mortality. Life expectancy is an intuitively understood metric that translates the loss of human life into a personally relatable metric. Climate change has the potential to be one of the most aggressive new mortality vectors to emerge over the last quarter-century, representing a major threat to public health. My work describes these impacts.
-
-*Sample Papers:*
-
-<table class="padded-table">
-<tr><td>**Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.*</td>
-<td>[Preprint](https://osf.io/preprints/socarxiv/ngtxr) </td>
-<td></td></tr>
-</table> 
-
-**4) Climate change impacts on human fertility**
-<a href="#" class="imagelink"><IMG SRC=./images/top_africa4.png ALIGN=”right” width= "250" class="floatleft"></a> 
-
-My final research area concerns human fertility. Fertility is the primary engine of global population change and is central to the United Nation's Sustainable Development Goals. The total fertility rate (TFR) is a critical component of population change but is data intensive, precluding its deployment for analysis of climate impacts. Using a novel estimation methodology, we are embarking on a large-scale effort to describe fertility rates across scale, subpopulation, and history to better understand the environmental correlates of fertility.
-
-*Sample Papers:*
-
-<table class="padded-table">
- <tr><td> **Hauer, M.**, Baker, J., and Brown, W., (2013). "Indirect estimates of the total fertility rate using the child  woman/ratio: A comparison with the Bogue-Palmore method.'' *PloS one 8(6)*.</td>
- <td> [WEB](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067226) / [PDF](./papers/2013-PlosOneHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0067226" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
- <td>Schmertmann, C., & **Hauer, M.** "Bayesian estimation of total fertility from a population's age-sex structure." *Statistical Modelling* (Forthcoming).</td> <td>[Preprint](https://osf.io/preprints/socarxiv/je59v/) </td>
- <td></td></tr>
- <td>**Hauer, M.** & Schmertmann, C. Population pyramids yield accurate estimates of total fertility rates.</td> 
- <td>[Preprint](https://osf.io/preprints/socarxiv/2f3v6/)</td>
- <td></td></tr>
-</table> 
+ <tr><td>[15.]  **Hauer, M.**, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” *Nature Reviews Earth & Environment*. </td><td>[WEB](https://www.nature.com/articles/s43017-019-0002-9) / [PDF](./papers/2019-NREEHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s43017-019-0002-9" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
  
+<tr><td>[14.]  Wrathall D., Mueller V., Clark P., Bell A., Oppenheimer M., **Hauer M.**, Kulp S, Gilmore E.,
+Adams H., Kopp R., Abel K., Call M., Chen J., deSherbinin A., Fussell E., Hay C., Jones B.,
+Magliocca N., Marino E., Slangen A., and Warner K. (2020) "Meeting the looming policy challenge of
+sea-level change and human migration" *Nature Climate Change*. </td><td>[WEB](https://www.nature.com/articles/s41558-019-0640-4) / [PDF](./papers/2019-NCLIMWrathall.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41558-019-0640-4" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
-</div>
+ <tr><td>[13.]  **Hauer, M.** & Byars, J. (2019)  "IRS County-to-County Migration Data, 1990-2010." *Demographic Research*. </td><td>[WEB](https://www.demographic-research.org/volumes/vol40/40/default.htm) / [PDF](./papers/2020-DemResHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
+ <tr><td>[12.]  **Hauer, M.** (2019)  "Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway." *Scientific Data*. </td><td>[WEB](https://www.nature.com/articles/sdata20195) / [PDF](./papers/2019-SciDataHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/sdata.2019.5" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
+ <tr><td>[11.]  **Hauer, M.** (2019)  "Sociology, Demography, and Economics Presidential Ages and Sex over Time." *Socius*. </td><td>[WEB](https://journals.sagepub.com/doi/abs/10.1177/2378023118825221) / [PDF](./papers/2019-SociusHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/2378023118825221" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
+ <tr><td>[10.]  **Hauer, M.**, Hardy, R.D., Mishra, D., & Pippin, J.S. (2019)  "No landward movement: examining 80 years of population migration and shoreline change in Louisiana ." *Population and Environment*. </td><td>[WEB](https://link.springer.com/article/10.1007/s11111-019-00315-8) / [PDF](./papers/2019-PopEnvHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s11111-019-00315-8" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
+ <tr><td>[9.] Schmertmann, C., & **Hauer, M.** (2018)  "Bayesian estimation of total fertility from a population's age–sex structure ." *Statistical Modelling*. </td><td>[WEB](https://journals.sagepub.com/doi/10.1177/1471082X18801450) / [PDF](./papers/2018-StatisticalModelling.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/1471082X18801450" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+
+ <tr><td>[8.] Hardy, R. D., & **Hauer, M.** (2018) "Social vulnerability projections improve sea-level rise risk assessments." *Applied Geography* 91: 10-20. </td><td>[WEB](https://www.sciencedirect.com/science/article/pii/S0143622817309189) / [PDF](./papers/2018-AppliedGeographerHardyHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="https://doi.org/10.1016/j.apgeog.2017.12.019" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+  <tr><td>[7.] **Hauer, M.** (2017). "Sea level rise induced migration could reshape the United States population landscape." *Nature Climate Change*  7(5): 321-325.  </td><td>[WEB](http://dx.doi.org/10.1038/nclimate3271) / [PDF](./papers/2017-NCLIMHauerREDUCED.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+  <tr><td>[6.] Shannon, S. & **Hauer, M.** (2017). "A life table approach to estimating disproportionate minority contact in the juvenile justice system." *Justice Quarterly*.  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/07418825.2017.1315163) / [PDF](./papers/2017-JusticeQuarterlyShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/07418825.2017.1315163" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
+  <tr><td>[5.] Shannon, J., **Hauer, M.**, Shannon, S., and Weaver, A. (2017). "The Suburbanization of Food Insecurity: An Analysis of Projected     Trends in the Atlanta Metropolitan Area." *Professional Geographer*.  </td><td>[WEB](http://www.tandfonline.com/doi/full/10.1080/00330124.2017.1325751) / [PDF](./papers/2017-ProGeographerShannonHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/00330124.2017.1325751" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
+   <tr><td>[4.] **Hauer, M.**, Evans, J., and Mishra, D. (2016). "Millions projected to be at risk from sea-level rise in the continental United States.'' *Nature Climate Change* 6(7): 691-695. </td><td> [WEB](http://www.nature.com/nclimate/journal/v6/n7/full/nclimate2961.html) / [PDF](./papers/2016-NCLIMHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate2961" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>  
+   <tr><td>[3.] **Hauer, M.**, Evans, J., and Alexander, C. (2015). "Sea-level rise and sub-county population projections in coastal Georgia.''  *Population and Environment* 37(1): 44-62.</td> <td> [WEB](http://link.springer.com/article/10.1007/s11111-015-0233-8) / [PDF](./papers/2015-POENHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s11111-015-0233-8" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr> 
+       
+ <tr><td>[2.] **Hauer, M.**, Baker, J., and Brown, W., (2013). "Indirect estimates of the total fertility rate using the child  woman/ratio: A comparison with the Bogue-Palmore method.'' *PloS one 8(6)*.</td><td> [WEB](http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067226) / [PDF](./papers/2013-PlosOneHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1371/journal.pone.0067226" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>        
+ <tr><td>[1.] **Hauer, M.**, (2013). "A 3D spatio-temporal geovisualization of subcounty estimates of historic housing density in metro Atlanta, 1940-2009.'' *Spatial Demography* 1(2), 146-161.</td><td> [WEB](http://link.springer.com/article/10.1007/BF03354895) / [PDF](./papers/2013-SpatDemHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/BF03354895" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>      
+  
+</table>
+
+----
