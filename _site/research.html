@@ -7,24 +7,21 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Research</title>
+<title>Research Themes</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
-<link href="site_libs/bootstrap-3.3.5/css/bootstrap.min.css" rel="stylesheet" />
+<link href="site_libs/bootstrap-3.3.5/css/yeti.min.css" rel="stylesheet" />
 <script src="site_libs/bootstrap-3.3.5/js/bootstrap.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/html5shiv.min.js"></script>
 <script src="site_libs/bootstrap-3.3.5/shim/respond.min.js"></script>
 <script src="site_libs/navigation-1.1/tabsets.js"></script>
-<link href="site_libs/highlightjs-9.12.0/default.css" rel="stylesheet" />
+<link href="site_libs/highlightjs-9.12.0/textmate.css" rel="stylesheet" />
 <script src="site_libs/highlightjs-9.12.0/highlight.js"></script>
-<link href="site_libs/font-awesome-5.1.0/css/all.css" rel="stylesheet" />
-<link href="site_libs/font-awesome-5.1.0/css/v4-shims.css" rel="stylesheet" />
 
 <style type="text/css">code{white-space: pre;}</style>
 <style type="text/css">
@@ -71,8 +68,11 @@ h6 {
 }
 </style>
 
+<link rel="stylesheet" href="fontawesome-free-5.0.2\web-fonts-with-css\css\fontawesome.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -86,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -96,79 +97,40 @@ img {
 button.code-folding-btn:focus {
   outline: none;
 }
-summary {
-  display: list-item;
-}
 </style>
 
 
 <style type="text/css">
 /* padding for bootstrap navbar */
 body {
-  padding-top: 51px;
+  padding-top: 45px;
   padding-bottom: 40px;
 }
 /* offset scroll position for anchor links (for fixed navbar)  */
 .section h1 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
+
 .section h2 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h3 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h4 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h5 {
-  padding-top: 56px;
-  margin-top: -56px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 .section h6 {
-  padding-top: 56px;
-  margin-top: -56px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
+  padding-top: 50px;
+  margin-top: -50px;
 }
 </style>
 
@@ -190,73 +152,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -269,42 +177,25 @@ $(document).ready(function () {
         <span class="icon-bar"></span>
         <span class="icon-bar"></span>
       </button>
-      <a class="navbar-brand" href="index.html">Mathew E. Hauer</a>
+      <a class="navbar-brand" href="index.html">HOME</a>
     </div>
     <div id="navbar" class="navbar-collapse collapse">
       <ul class="nav navbar-nav">
         <li>
-  <a href="Hauer_CV.pdf">CV</a>
+  <a href="mathew-hauer.html">About</a>
 </li>
 <li>
   <a href="research.html">Research</a>
 </li>
+<li>
+  <a href="publications.html">Papers</a>
+</li>
+<li>
+  <a href="resources.html">Resources</a>
+</li>
       </ul>
       <ul class="nav navbar-nav navbar-right">
-        <li>
-  <a href="mailto:mehauer@fsu.edu">
-    <span class="fa fa-envelope"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://scholar.google.com/citations?user=SI0ST5YAAAAJ&amp;hl=en">
-    <span class="fa fa-google"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://github.com/mathewhauer">
-    <span class="fa fa-github"></span>
-     
-  </a>
-</li>
-<li>
-  <a href="https://twitter.com/thehauer">
-    <span class="fa fa-twitter"></span>
-     
-  </a>
-</li>
+        
       </ul>
     </div><!--/.nav-collapse -->
   </div><!--/.container -->
@@ -314,140 +205,46 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Research</h1>
+<h1 class="title toc-ignore">Research Themes</h1>
 
 </div>
 
 
-<p>This page lists some of my academic research interests, working papers, and past publications. You can also view PDFs of my <a href="Hauer_CV.pdf">full academic CV</a>.</p>
-<div id="working-papers" class="section level3">
-<h3>Working Papers</h3>
-<p><strong>Hauer, M.</strong> &amp; Santos, A. <em>Climate change could reduce European life expectancy.</em> <a href="https://osf.io/preprints/socarxiv/ngtxr">[PDF]</a></p>
-<p><strong>Hauer, M.</strong>, Saunders, RK, &amp; Shtob, D. <em>The Path of Least Resistance: Projections of Social Inequalities as a Result of Climate Change in the United States.</em> <a href="https://osf.io/preprints/socarxiv/7jtrn/">[PDF]</a></p>
-<p>Keenan, J. M., &amp; <strong>Hauer, M.</strong> <em>Resilience for Whom? Demographic Change and the Redevelopment of the Built Environment in Puerto Rico.</em></p>
-<p>Landon, C., Lyles, R., Scovronick, N., Abadi, A., Bilotta, R., <strong>Hauer, M.</strong>, Bell, J., &amp; Gribble, M. <em>Mixed-effects negative binomial regression with interval censoring: a simulation study and application to aridity and all-cause mortality among black South Africans over 1997-2013.</em></p>
-</div>
-<div id="publications" class="section level3">
-<h3>Publications</h3>
 <script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
 <style type="text/css">
 table.padded-table td { padding:6px; min-width:100px }
 </style>
+<style type="text/css">
+a.imagelink {
+    float: right;
+    margin-right: 10px;
+    margin-bottom: 10px;
+}
+</style>
+My research focuses on the intersection between climate change and demographic processes to better understand the current and projected impacts of climate change on human society. My long-term research goal is to holistically describe these impacts. Unfortunately, many demographic techniques and methods are underdeveloped to properly quantify climate impacts. My research team routinely develops new techniques and methods and harnesses these developments to quantify climate impacts on human populations.
+<center>
+<p><img src="images/researchthemes.png" /></p>
+</center>
+<strong>1) Demographic Projections and their Applications</strong>
+<div>
+<p><a href="#" class="imagelink"><IMG SRC=./images/countymaps2.png ALIGN=”right” width= "250" class="floatleft"></a></p>
+<p>Climate change impacts are occurring all of the world however many impacts are still projected to be in the future. Without properly situating future climate change impacts with future populations, we risk significantly misrepresenting these impacts by coupling a dynamic environment (climate change) with a static society (current populations). Recent calls to couple sociodemographic futures with biophysical futures (ie climate change) strongly emphasize this point (<a href="https://www.nature.com/articles/nclimate3222"><em>Lutz and Muttarak 2017</em></a>). Societies are sure to change and it is imperative to properly model this change. My primary research aims to develop multi-dimensional predictive models of sociodemographic change to create demographic futures that we will then couple with climate models to assess future climate impacts. The development of these demographic projections become the engine that powers the subsequent climate impact work.</p>
+<p>My demographic projections incorporate varying scales depending on the climate change impact. Sea level rise unfolds along highly localized scales necessitating the development of small-area demographic projections (ie Census Tract and Block Group geographies). Drought, heat, and wildfire impacts unfold along much broader scales necessitating the development of county-level demographic projections. I harmonize the demographic projections across scale allowing us to seamlessly analyze climate impacts between scales.</p>
+<p><em>Sample Papers:</em></p>
 <table class="padded-table">
 <tr>
 <td>
-[17.] <strong>Hauer, M.</strong>, Holloway S., &amp; Oda, T. (2020) “Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami.” Forthcoming in <em>Demography</em>.
+<strong>Hauer, M.</strong> “Population projections for all U.S. counties by age, sex, and race controlled to the Shared Socioeconomic Pathways”
 </td>
 <td>
-<a href="https://osf.io/preprints/socarxiv/76y5z/">WEB</a> / <a href="">PDF</a>
-</td>
-<td>
-</td>
-</tr>
-<tr>
-<td>
-[16.] <strong>Hauer, M.</strong> &amp; Schmertmann, C. (2020) “Population pyramids yield accurate estimates of total fertility rates.” Forthcoming in <em>Demography</em>.
-</td>
-<td>
-<a href="https://osf.io/preprints/socarxiv/2f3v6/">WEB</a> / <a href="">PDF</a>
+<a href="https://osf.io/preprints/socarxiv/ue4hs/">Preprint</a>
 </td>
 <td>
 </td>
 </tr>
 <tr>
 <td>
-[15.] <strong>Hauer, M.</strong>, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” <em>Nature Reviews Earth &amp; Environment</em>.
-</td>
-<td>
-<a href="https://www.nature.com/articles/s43017-019-0002-9">WEB</a> / <a href="./papers/2019-NREEHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s43017-019-0002-9" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[14.] Wrathall D., Mueller V., Clark P., Bell A., Oppenheimer M., <strong>Hauer M.</strong>, Kulp S, Gilmore E., Adams H., Kopp R., Abel K., Call M., Chen J., deSherbinin A., Fussell E., Hay C., Jones B., Magliocca N., Marino E., Slangen A., and Warner K. (2020) “Meeting the looming policy challenge of sea-level change and human migration” <em>Nature Climate Change</em>.
-</td>
-<td>
-<a href="https://www.nature.com/articles/s41558-019-0640-4">WEB</a> / <a href="./papers/2019-NCLIMWrathall.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s41558-019-0640-4" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[13.] <strong>Hauer, M.</strong> &amp; Byars, J. (2019) “IRS County-to-County Migration Data, 1990-2010.” <em>Demographic Research</em>.
-</td>
-<td>
-<a href="https://www.demographic-research.org/volumes/vol40/40/default.htm">WEB</a> / <a href="./papers/2020-DemResHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.4054/DemRes.2019.40.40" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[12.] <strong>Hauer, M.</strong> (2019) “Population projections for US counties by age, sex, and race controlled to shared socioeconomic pathway.” <em>Scientific Data</em>.
-</td>
-<td>
-<a href="https://www.nature.com/articles/sdata20195">WEB</a> / <a href="./papers/2019-SciDataHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/sdata.2019.5" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[11.] <strong>Hauer, M.</strong> (2019) “Sociology, Demography, and Economics Presidential Ages and Sex over Time.” <em>Socius</em>.
-</td>
-<td>
-<a href="https://journals.sagepub.com/doi/abs/10.1177/2378023118825221">WEB</a> / <a href="./papers/2019-SociusHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/2378023118825221" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[10.] <strong>Hauer, M.</strong>, Hardy, R.D., Mishra, D., &amp; Pippin, J.S. (2019) “No landward movement: examining 80 years of population migration and shoreline change in Louisiana .” <em>Population and Environment</em>.
-</td>
-<td>
-<a href="https://link.springer.com/article/10.1007/s11111-019-00315-8">WEB</a> / <a href="./papers/2019-PopEnvHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s11111-019-00315-8" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[9.] Schmertmann, C., &amp; <strong>Hauer, M.</strong> (2018) “Bayesian estimation of total fertility from a population’s age–sex structure .” <em>Statistical Modelling</em>.
-</td>
-<td>
-<a href="https://journals.sagepub.com/doi/10.1177/1471082X18801450">WEB</a> / <a href="./papers/2018-StatisticalModelling.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1177/1471082X18801450" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[8.] Hardy, R. D., &amp; <strong>Hauer, M.</strong> (2018) “Social vulnerability projections improve sea-level rise risk assessments.” <em>Applied Geography</em> 91: 10-20.
+Hardy, R. D., &amp; <strong>Hauer, M.</strong> “Social vulnerability projections improve sea-level rise risk assessments.” <em>Applied Geography</em> 91: 10-20.
 </td>
 <td>
 <a href="https://www.sciencedirect.com/science/article/pii/S0143622817309189">WEB</a> / <a href="./papers/2018-AppliedGeographerHardyHauer.pdf">PDF</a>
@@ -460,7 +257,7 @@ table.padded-table td { padding:6px; min-width:100px }
 </tr>
 <tr>
 <td>
-[7.] <strong>Hauer, M.</strong> (2017). “Sea level rise induced migration could reshape the United States population landscape.” <em>Nature Climate Change</em> 7(5): 321-325.
+<strong>Hauer, M.</strong> (2017). “Sea level rise induced migration could reshape the United States population landscape.” <em>Nature Climate Change</em> 7(5): 321-325.
 </td>
 <td>
 <a href="http://dx.doi.org/10.1038/nclimate3271">WEB</a> / <a href="./papers/2017-NCLIMHauerREDUCED.pdf">PDF</a>
@@ -473,20 +270,7 @@ table.padded-table td { padding:6px; min-width:100px }
 </tr>
 <tr>
 <td>
-[6.] Shannon, S. &amp; <strong>Hauer, M.</strong> (2017). “A life table approach to estimating disproportionate minority contact in the juvenile justice system.” <em>Justice Quarterly</em>.
-</td>
-<td>
-<a href="http://www.tandfonline.com/doi/full/10.1080/07418825.2017.1315163">WEB</a> / <a href="./papers/2017-JusticeQuarterlyShannonHauer.pdf">PDF</a>
-</td>
-<td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1080/07418825.2017.1315163" data-hide-no-mentions="true">
-
-</div>
-</td>
-</tr>
-<tr>
-<td>
-[5.] Shannon, J., <strong>Hauer, M.</strong>, Shannon, S., and Weaver, A. (2017). “The Suburbanization of Food Insecurity: An Analysis of Projected Trends in the Atlanta Metropolitan Area.” <em>Professional Geographer</em>.
+Shannon, J., <strong>Hauer, M.</strong>, Shannon, S., and Weaver, A. (2017). “The Suburbanization of Food Insecurity: An Analysis of Projected Trends in the Atlanta Metropolitan Area.” <em>Professional Geographer</em>.
 </td>
 <td>
 <a href="http://www.tandfonline.com/doi/full/10.1080/00330124.2017.1325751">WEB</a> / <a href="./papers/2017-ProGeographerShannonHauer.pdf">PDF</a>
@@ -499,7 +283,7 @@ table.padded-table td { padding:6px; min-width:100px }
 </tr>
 <tr>
 <td>
-[4.] <strong>Hauer, M.</strong>, Evans, J., and Mishra, D. (2016). &quot;Millions projected to be at risk from sea-level rise in the continental United States.’’ <em>Nature Climate Change</em> 6(7): 691-695.
+<strong>Hauer, M.</strong>, Evans, J., and Mishra, D. (2016). &quot;Millions projected to be at risk from sea-level rise in the continental United States.’’ <em>Nature Climate Change</em> 6(7): 691-695.
 </td>
 <td>
 <a href="http://www.nature.com/nclimate/journal/v6/n7/full/nclimate2961.html">WEB</a> / <a href="./papers/2016-NCLIMHauer.pdf">PDF</a>
@@ -512,7 +296,7 @@ table.padded-table td { padding:6px; min-width:100px }
 </tr>
 <tr>
 <td>
-[3.] <strong>Hauer, M.</strong>, Evans, J., and Alexander, C. (2015). &quot;Sea-level rise and sub-county population projections in coastal Georgia.’’ <em>Population and Environment</em> 37(1): 44-62.
+<strong>Hauer, M.</strong>, Evans, J., and Alexander, C. (2015). &quot;Sea-level rise and sub-county population projections in coastal Georgia.’’ <em>Population and Environment</em> 37(1): 44-62.
 </td>
 <td>
 <a href="http://link.springer.com/article/10.1007/s11111-015-0233-8">WEB</a> / <a href="./papers/2015-POENHauer.pdf">PDF</a>
@@ -523,9 +307,67 @@ table.padded-table td { padding:6px; min-width:100px }
 </div>
 </td>
 </tr>
+</table>
+<p><strong>2) Climate change impacts on human migration</strong> <a href="#" class="imagelink"><IMG SRC=./images/nclimate3271-f3.jpg ALIGN=”right” width= "250" class="floatleft"></a></p>
+<p>The effects of global climate change on human society is one of the most pressing issues of the 21st century. At present, my migration research focuses on sea level rise, one of the forefronts of climate change. We take a migration systems theory approach to ask a fundamental questions about environmental migration. A systems approach posits that when one place experiences a change, the effect is manifested throughout the system. In order to better understand the drivers of human migration in response to environmental change we utilize historic analogs, recent major environmental events that spur migration, and quantitative forecasting to understand, model, and project human migratory responses to climate change without a migration systems framework. By exploring historical migration events and modeling future environmental migration, my research goes beyond simply describing empirical drivers of human migration by creating migration simulations describing how climate change will alter human settlement patterns.</p>
+<p>Though my research currently focuses primarily on sea level rise, we are open to broader examinations of climate change and human migration. Will our coastal cities be abandoned as sea levels overtake them? Where will these potentially millions of people go? Can we turn to historic analogs to understand how people might adapt to sea level rise? What do we really know about the scale, magnitude, and geographies of the populations vulnerable to sea level rise over the coming century and what lessons can we learn from that knowledge? These are some of the questions we seek to answer.</p>
+<p><em>Sample Papers:</em></p>
+<table class="padded-table">
 <tr>
 <td>
-[2.] <strong>Hauer, M.</strong>, Baker, J., and Brown, W., (2013). &quot;Indirect estimates of the total fertility rate using the child woman/ratio: A comparison with the Bogue-Palmore method.’’ <em>PloS one 8(6)</em>.
+<strong>Hauer, M.</strong> (2017). “Sea level rise induced migration could reshape the United States population landscape.” <em>Nature Climate Change</em> 7(5): 321-325.
+</td>
+<td>
+<a href="http://dx.doi.org/10.1038/nclimate3271">WEB</a> / <a href="./papers/2017-NCLIMHauerREDUCED.pdf">PDF</a>
+</td>
+<td>
+<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/nclimate3271" data-hide-no-mentions="true">
+
+</div>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Hauer, M.</strong>, Mishra, D., Pippin, J.S., Hardy, D. No landward retreat: Confronting 80 years of sea level rise in Louisiana.
+</td>
+<td>
+<a href="https://osf.io/preprints/socarxiv/n7pt5/">Preprint</a>
+</td>
+<td>
+</td>
+</tr>
+<tr>
+<td>
+<strong>Hauer, M.</strong>, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.
+</td>
+<td>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<p><strong>3) Climate change impacts on human mortality</strong> <a href="#" class="imagelink"><IMG SRC=./images/e0.png ALIGN=”right” width= "250" class="floatleft"></a></p>
+<p>Climate change’s implications on humanity go far beyond estimates of economic damages, estimates of displacement, or human conflict but have the potential to lead to the loss of human life. Scholars have long estimated the mortality risks associated with climate change and typically use excess or extra mortality. It is my goal to describe the impact of climate change on human mortality through a demographic lens by using life expectancy at birth rather than excess mortality. Life expectancy is an intuitively understood metric that translates the loss of human life into a personally relatable metric. Climate change has the potential to be one of the most aggressive new mortality vectors to emerge over the last quarter-century, representing a major threat to public health. My work describes these impacts.</p>
+<p><em>Sample Papers:</em></p>
+<table class="padded-table">
+<tr>
+<td>
+<strong>Hauer, M.</strong> &amp; Santos, A. <em>Climate change could reduce European life expectancy.</em>
+</td>
+<td>
+<a href="https://osf.io/preprints/socarxiv/ngtxr">Preprint</a>
+</td>
+<td>
+</td>
+</tr>
+</table>
+<p><strong>4) Climate change impacts on human fertility</strong> <a href="#" class="imagelink"><IMG SRC=./images/top_africa4.png ALIGN=”right” width= "250" class="floatleft"></a></p>
+<p>My final research area concerns human fertility. Fertility is the primary engine of global population change and is central to the United Nation’s Sustainable Development Goals. The total fertility rate (TFR) is a critical component of population change but is data intensive, precluding its deployment for analysis of climate impacts. Using a novel estimation methodology, we are embarking on a large-scale effort to describe fertility rates across scale, subpopulation, and history to better understand the environmental correlates of fertility.</p>
+<p><em>Sample Papers:</em></p>
+<table class="padded-table">
+<tr>
+<td>
+<strong>Hauer, M.</strong>, Baker, J., and Brown, W., (2013). &quot;Indirect estimates of the total fertility rate using the child woman/ratio: A comparison with the Bogue-Palmore method.’’ <em>PloS one 8(6)</em>.
 </td>
 <td>
 <a href="http://journals.plos.org/plosone/article?id=10.1371/journal.pone.0067226">WEB</a> / <a href="./papers/2013-PlosOneHauer.pdf">PDF</a>
@@ -536,23 +378,90 @@ table.padded-table td { padding:6px; min-width:100px }
 </div>
 </td>
 </tr>
-<tr>
 <td>
-[1.] <strong>Hauer, M.</strong>, (2013). &quot;A 3D spatio-temporal geovisualization of subcounty estimates of historic housing density in metro Atlanta, 1940-2009.’’ <em>Spatial Demography</em> 1(2), 146-161.
+Schmertmann, C., &amp; <strong>Hauer, M.</strong> “Bayesian estimation of total fertility from a population’s age-sex structure.” <em>Statistical Modelling</em> (Forthcoming).
 </td>
 <td>
-<a href="http://link.springer.com/article/10.1007/BF03354895">WEB</a> / <a href="./papers/2013-SpatDemHauer.pdf">PDF</a>
+<a href="https://osf.io/preprints/socarxiv/je59v/">Preprint</a>
 </td>
 <td>
-<div class="altmetric-embed" data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/BF03354895" data-hide-no-mentions="true">
-
-</div>
+</td>
+</tr>
+<td>
+<strong>Hauer, M.</strong> &amp; Schmertmann, C. Population pyramids yield accurate estimates of total fertility rates.
+</td>
+<td>
+<a href="https://osf.io/preprints/socarxiv/2f3v6/">Preprint</a>
+</td>
+<td>
 </td>
 </tr>
 </table>
-<hr />
 </div>
 
+<footer role="contentinfo" id="site-footer">
+   <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
+<!-- /.bottom-menu -->
+<hr>
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://www.w3schools.com/w3css/4/w3.css">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<style>
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+}
+
+/* Create two equal columns that floats next to each other */
+.column {
+    float: left;
+    width: 50%;
+    padding: 10px;
+    height: 300px; /* Should be removed. Only for demonstration */
+}
+
+/* Clear floats after the columns */
+.row:after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+/* Responsive layout - makes the two columns stack on top of each other instead of next to each other */
+@media (max-width: 600px) {
+    .column {
+        width: 100%;
+    }
+}
+</style>
+ 
+
+<div class="row">
+  <div class="column">
+    <h4>ABOUT</h4>
+<img src="images/headshot.png" width="100px" style="float:left" HSPACE="10">
+    I am a Sociologist and Demographer in the <a href="https://coss.fsu.edu/sociology/home">Department of Sociology</a> and <a href="http://popcenter.fsu.edu/index.html">Center for Demography and Population Health</a>  at the <a href="http://www.fsu.edu//">Florida State University</a>.
+  </div>
+  <div class="column">
+    <h4>CONTACT</h4>
+    <i class="fa fa-university"></i> 600 W. College Ave., Tallahassee, FL, 32306<br>
+    <i class="fa fa-envelope"></i> <a href= "mailto:mehauer@fsu.edu">mehauer@fsu.edu</a><br>
+    <i class="fa fa-twitter-square"></i> <a href="http://www.twitter.com/thehauer">@thehauer</a> on Twitter.<br>
+    <i class="fa fa-github"></i> <a href= "https://github.com/mathewhauer">on GitHub</a>.<br>
+    <i class="fa fa-graduation-cap"></i> <a href= "https://scholar.google.com/citations?user=SI0ST5YAAAAJ&hl=en">Google Scholar</a>.<br>
+  </div>
+</div>
+
+
+<hr>
+
+	<p class="copyright">&#169; 2017,
+		powered by <a href="http://www.r-project.org">R</a> + <a href="http://rmarkdown.rstudio.com">RMarkdown</a> + <a href="http://github.com">Github</a>.</p>
+		</footer>
 
 
 
@@ -570,23 +479,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

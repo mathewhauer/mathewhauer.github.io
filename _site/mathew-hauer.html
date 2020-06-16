@@ -7,12 +7,11 @@
 <meta charset="utf-8" />
 <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
 <meta name="generator" content="pandoc" />
-<meta http-equiv="X-UA-Compatible" content="IE=EDGE" />
 
 
 
 
-<title>Mathew E Hauer @ Florida State University</title>
+<title>Mathew E. Hauer</title>
 
 <script src="site_libs/jquery-1.11.3/jquery.min.js"></script>
 <meta name="viewport" content="width=device-width, initial-scale=1" />
@@ -71,7 +70,9 @@ h6 {
 
 <link rel="stylesheet" href="fontawesome-free-5.0.2\web-fonts-with-css\css\fontawesome.css" type="text/css" />
 
+</head>
 
+<body>
 
 <style type = "text/css">
 .main-container {
@@ -85,6 +86,7 @@ code {
 }
 img {
   max-width:100%;
+  height: auto;
 }
 .tabbed-pane {
   padding-top: 12px;
@@ -94,9 +96,6 @@ img {
 }
 button.code-folding-btn:focus {
   outline: none;
-}
-summary {
-  display: list-item;
 }
 </style>
 
@@ -112,6 +111,7 @@ body {
   padding-top: 50px;
   margin-top: -50px;
 }
+
 .section h2 {
   padding-top: 50px;
   margin-top: -50px;
@@ -131,43 +131,6 @@ body {
 .section h6 {
   padding-top: 50px;
   margin-top: -50px;
-}
-.dropdown-submenu {
-  position: relative;
-}
-.dropdown-submenu>.dropdown-menu {
-  top: 0;
-  left: 100%;
-  margin-top: -6px;
-  margin-left: -1px;
-  border-radius: 0 6px 6px 6px;
-}
-.dropdown-submenu:hover>.dropdown-menu {
-  display: block;
-}
-.dropdown-submenu>a:after {
-  display: block;
-  content: " ";
-  float: right;
-  width: 0;
-  height: 0;
-  border-color: transparent;
-  border-style: solid;
-  border-width: 5px 0 5px 5px;
-  border-left-color: #cccccc;
-  margin-top: 5px;
-  margin-right: -10px;
-}
-.dropdown-submenu:hover>a:after {
-  border-left-color: #ffffff;
-}
-.dropdown-submenu.pull-left {
-  float: none;
-}
-.dropdown-submenu.pull-left>.dropdown-menu {
-  left: -100%;
-  margin-left: 10px;
-  border-radius: 6px 0 6px 6px;
 }
 </style>
 
@@ -189,73 +152,19 @@ $(document).ready(function () {
 });
 </script>
 
+
+<div class="container-fluid main-container">
+
 <!-- tabsets -->
-
-<style type="text/css">
-.tabset-dropdown > .nav-tabs {
-  display: inline-table;
-  max-height: 500px;
-  min-height: 44px;
-  overflow-y: auto;
-  background: white;
-  border: 1px solid #ddd;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs > li.active:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li.active:before {
-  content: "&#xe258;";
-  border: none;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open:before {
-  content: "";
-  font-family: 'Glyphicons Halflings';
-  display: inline-block;
-  padding: 10px;
-  border-right: 1px solid #ddd;
-}
-
-.tabset-dropdown > .nav-tabs > li.active {
-  display: block;
-}
-
-.tabset-dropdown > .nav-tabs > li > a,
-.tabset-dropdown > .nav-tabs > li > a:focus,
-.tabset-dropdown > .nav-tabs > li > a:hover {
-  border: none;
-  display: inline-block;
-  border-radius: 4px;
-}
-
-.tabset-dropdown > .nav-tabs.nav-tabs-open > li {
-  display: block;
-  float: none;
-}
-
-.tabset-dropdown > .nav-tabs > li {
-  display: none;
-}
-</style>
+<script>
+$(document).ready(function () {
+  window.buildTabsets("TOC");
+});
+</script>
 
 <!-- code folding -->
 
 
-
-
-</head>
-
-<body>
-
-
-<div class="container-fluid main-container">
 
 
 
@@ -296,20 +205,29 @@ $(document).ready(function () {
 
 
 
-<h1 class="title toc-ignore">Mathew E Hauer @ Florida State University</h1>
+<h1 class="title toc-ignore">Mathew E. Hauer</h1>
 
 </div>
 
 
-<script type='text/javascript' src='https://d1bxh8uas1mnw7.cloudfront.net/assets/embed.js'></script>
-<style type="text/css">
-table.padded-table td { padding:6px; min-width:100px }
+<!---From http://stackoverflow.com/questions/31753897/2-column-section-in-r-markdown:
+Put in your css file or directly in rmarkdown--->
+<style>
+  .col2 {
+    columns: 2 200px;         /* number of columns and width in pixels*/
+    -webkit-columns: 2 200px; /* chrome, safari */
+    -moz-columns: 2 200px;    /* firefox */
+  }
 </style>
-<center>
-<p><img src="images/SSP2_animation.gif" /></p>
-</center>
-<p><br><br> I am interested in <strong>demographic population projections and their applications</strong>, <strong>human mobility</strong>, <strong>human fertility</strong>, and <strong>human mortality</strong> with an emphasis on how <strong>climate change</strong> will impact these processes. My work aims to link <strong>climate change</strong> with <strong>demographic processes</strong> to understand how climate change will impact society.</p>
-<p>My research <strong>stands at the interface between sociology, demography, and climate science</strong>, using demographic techniques and sociological theory to describe the impacts of the biggest challenge of our time: climate change.</p>
+<div class="col2">
+<p><img src="images/headshot.png" /></p>
+<p><link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css"> <i class="fa fa-university"></i> 600 W. College Ave., Tallahassee, FL, 32306<br> <i class="fa fa-envelope"></i> <a href= "mailto:mehauer@fsu.edu">mehauer@fsu.edu</a><br> <i class="fa fa-twitter-square"></i> <a href="http://www.twitter.com/thehauer"><span class="citation">@thehauer</span></a> on Twitter.<br> <i class="fa fa-github"></i> <a href= "https://github.com/mathewhauer">on GitHub</a>.<br> <i class="fa fa-graduation-cap"></i> <a href= "https://scholar.google.com/citations?user=SI0ST5YAAAAJ&hl=en">Google Scholar</a>.<br></p>
+<p><br><br><br><br><br><br> <br> <br></p>
+<p><br> <br></p>
+<p><a href="../CV/Hauer_CV.pdf">A copy of my CV can be found here</a></p>
+<p>Dr. Mathew Hauer is an Assistant Professor in the Department of Sociology and an Affiliate of the Center for Demography and Population Health at Florida State University. He obtained his Ph.D. in Geography at the University of Georgia. Prior to arriving at FSU, Dr. Hauer spent nearly a decade directing the Applied Demography Program at the University of Georgia.</p>
+<p>I use demographic techniques and sociological theory to explore the impacts climate change is having and will have on the three demographic processes: fertility, mortality, and migration. Details of research areas and ongoing projects can be found under the Research Tab.</p>
+</div>
 
 <footer role="contentinfo" id="site-footer">
    <link href="http://maxcdn.bootstrapcdn.com/font-awesome/4.3.0/css/font-awesome.min.css" rel="stylesheet">
@@ -391,23 +309,6 @@ $(document).ready(function () {
 
 
 </script>
-
-<!-- tabsets -->
-
-<script>
-$(document).ready(function () {
-  window.buildTabsets("TOC");
-});
-
-$(document).ready(function () {
-  $('.tabset-dropdown > .nav-tabs > li').click(function () {
-    $(this).parent().toggleClass('nav-tabs-open')
-  });
-});
-</script>
-
-<!-- code folding -->
-
 
 <!-- dynamically load mathjax for compatibility with self-contained -->
 <script>

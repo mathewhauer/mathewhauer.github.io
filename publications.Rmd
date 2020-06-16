@@ -57,9 +57,9 @@ table.padded-table td { padding:6px; min-width:100px }
 
 
 
- <tr><td>[17.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/76y5z/) / [PDF]()</td><td></td></tr>
+ <tr><td>[17.]  **Hauer, M.**, Holloway S., & Oda, T. (2020)  "Evacuees and Migrants Exhibit Different Migration Systems after the Great East Japan Earthquake and Tsunami." Forthcoming in *Demography*. </td><td>[WEB](https://link.springer.com/article/10.1007/s13524-020-00883-7) / [PDF](2020-DemographyHauerHollowayOda.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s13524-020-00883-7" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
 
- <tr><td>[16.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." Forthcoming in *Demography*. </td><td>[WEB](https://osf.io/preprints/socarxiv/2f3v6/) / [PDF]()</td><td></td></tr>
+ <tr><td>[16.]  **Hauer, M.** & Schmertmann, C. (2020)  "Population pyramids yield accurate estimates of total fertility rates." *Demography*. </td><td>[WEB](https://link.springer.com/article/10.1007/s13524-019-00842-x) / [PDF](./papers/2020-DemographyHauerSchmertmann.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1007/s13524-019-00842-x" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
  
  <tr><td>[15.]  **Hauer, M.**, Fussell B., Burkett M., Call M., Abel K., Mueller V., McLeman R., Wrathall D. (2020) “Sea-Level Rise and Human Migration.” *Nature Reviews Earth & Environment*. </td><td>[WEB](https://www.nature.com/articles/s43017-019-0002-9) / [PDF](./papers/2019-NREEHauer.pdf)</td><td><div data-badge-popover="right" data-badge-type="donut" data-doi="10.1038/s43017-019-0002-9" data-hide-no-mentions="true" class="altmetric-embed"></div></td></tr>
  
@@ -96,8 +96,14 @@ sea-level change and human migration" *Nature Climate Change*. </td><td>[WEB](ht
 
 **Hauer, M.** & Santos, A. *Climate change could reduce European life expectancy.*  [[PDF]](https://osf.io/preprints/socarxiv/ngtxr)
 
-**Hauer, M.**, Holloway, S., Oda, T. Evacuees and migrants exhibit different migration systems after the Great East Japan Earthquake and Tsunami.[[PDF]](https://osf.io/preprints/socarxiv/76y5z/)
-    
-**Hauer, M.** & Schmertmann, C. Population pyramids yield accurate estimates of total fertility rates. [[PDF]](https://osf.io/preprints/socarxiv/2f3v6/)
+Keenan, J.M. & **Hauer, M.**. (2020). *Resilience for whom? Demographic change and the redevelopment of the built environment in Puerto Rico.* Forthcoming in Environmental Research Letters.
+
+Landon, CM, Lyles RH, Scrovronick, NC, Abadi, AM, Bilotta R, **Hauer, M.**, Bell, JE, Gribble, MO. (2020). *Mixed-effects negative binomial regression with interval censoring: a simulation study and application to aridity and all-cause mortality among black South Africans over 1997-2013.* Forthcoming in Springer Statistics and Biostatistics.
+
+**Hauer M.**, Saunders, R.K., & Shtob, D. *The Path of Least Resistance Projections of Social Inequalities as a Result of Climate Change in the United States.* [[Preprint]](https://osf.io/preprints/socarxiv/7jtrn/). 
+
+**Hauer M.**, Hardy, R.D., Kulp, S., Mueller, V., Wrathall, D., Clark, P.U., Oppenheimer, M.O. *A framework for classifying and assessing sea level rise risk.* [[Preprint]](https://osf.io/preprints/socarxiv/tf6rj/).
+
+Bell, A., Wrathall, D., Mueller, V., Chen, J., Oppenheimer, M., **Hauer, M.**, Adams, H., Kulp, S., Clark, P., Fussell, E., Magliocca, N., Xiao, T., Gilmore, E., Abel, K., Call, M., Slangen, A. *Simulated migrants move toward vulnerable coastlines in Bangladesh under all sea-level change scenarios through 2100.*
 
 ----
